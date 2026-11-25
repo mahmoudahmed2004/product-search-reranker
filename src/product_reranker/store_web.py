@@ -8,7 +8,7 @@ from typing import Annotated, Literal
 
 from fastapi import APIRouter, HTTPException, Query, Request
 from fastapi.responses import FileResponse, RedirectResponse
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 from starlette.staticfiles import StaticFiles
 
 from .store import COLLECTIONS, Product, Recommendation
@@ -31,6 +31,13 @@ class CatalogResponse(BaseModel):
     products: list[Product]
     collections: list[Collection]
     total: int
+
+
+class HomeContext(BaseModel):
+    source: Literal["search", "view", "none"]
+    collection: str | None = None
+    label: str = ""
+    products: list[Product] = Field(default_factory=list)
 
 
 class ProductPage(BaseModel):
@@ -63,6 +70,32 @@ def store_router(options: StoreOptions) -> APIRouter:
                 for key, label in COLLECTIONS.items()
             ],
         )
+
+    @router.get("/api/store/home-context", response_model=HomeContext, tags=["Store"])
+    def home_context(
+        request: Request,
+        q: Annotated[str, Query(max_length=160)] = "",
+        viewed: Annotated[str, Query(max_length=180)] = "",
+        collection: Annotated[str, Query(max_length=30)] = "",
+    ) -> HomeContext:
+        if collection and collection not in COLLECTIONS:
+            raise HTTPException(422, "Unknown collection.")
+        engine = request.app.state.store
+        if q.strip():
+            topic, products = engine.home_search(q, collection)
+            return HomeContext(
+                source="search", collection=topic, label=q.strip(), products=products
+            )
+        anchor = engine.by_slug.get(viewed)
+        if anchor:
+            similar, complements = engine.recommendations(anchor)
+            return HomeContext(
+                source="view",
+                collection=anchor.collection,
+                label=anchor.title,
+                products=[row.product for row in (*similar, *complements)][:4],
+            )
+        return HomeContext(source="none")
 
     @router.get("/api/store/products/{slug}", response_model=ProductPage, tags=["Store"])
     def product_page(request: Request, slug: str) -> ProductPage:

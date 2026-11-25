@@ -1,8 +1,10 @@
 # Assembly storefront and product recommendations
 
-Assembly is the V2 storefront for Product Search Reranker. It has a 39-product catalog, collection browsing, filtered search, product galleries, and an on-device shopping bag. Product pages show two recommendations for different shopping intents. **Similar products** are substitutes in the same product type. **Complete your setup** shows compatible accessories and items that can be used alongside the product.
+V2 of Assembly used a 39-product catalog, collection browsing, filtered search, product galleries, and an on-device shopping bag. Product pages show two recommendations for different shopping intents. **Similar products** are substitutes in the same product type. **Complete your setup** shows compatible accessories and items that can be used alongside the product.
 
 [View the product page screenshot](storefront-product.png)
+
+The current storefront and its expanded catalog are documented in the [V3 notes](storefront-v3.md). The figures below are the original V2 experiments.
 
 ## Run locally
 

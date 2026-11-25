@@ -1,0 +1,1926 @@
+{
+  "catalog_products": 149,
+  "encoder": "ibm-granite/granite-embedding-small-english-r2",
+  "search": {
+    "judged_queries": 21,
+    "mean_ndcg_at_5": {
+      "bm25": 0.9471907930844432,
+      "dense": 0.9290128771397961,
+      "hybrid": 0.9718366173238586,
+      "reranked": 0.9696287084280458
+    },
+    "cases": [
+      {
+        "query": "active noise cancellation over ear",
+        "runs": {
+          "bm25": {
+            "ndcg_at_5": 0.8609101556836468,
+            "top5": [
+              101
+            ]
+          },
+          "dense": {
+            "ndcg_at_5": 1.0,
+            "top5": [
+              101,
+              107,
+              100,
+              99,
+              103
+            ]
+          },
+          "hybrid": {
+            "ndcg_at_5": 1.0,
+            "top5": [
+              101,
+              107,
+              100,
+              99,
+              103
+            ]
+          },
+          "reranked": {
+            "ndcg_at_5": 1.0,
+            "top5": [
+              101,
+              100,
+              107,
+              103,
+              104
+            ]
+          }
+        }
+      },
+      {
+        "query": "apple headphones",
+        "runs": {
+          "bm25": {
+            "ndcg_at_5": 0.8146656240744838,
+            "top5": [
+              101,
+              103,
+              78,
+              104,
+              100
+            ]
+          },
+          "dense": {
+            "ndcg_at_5": 0.9941825709069458,
+            "top5": [
+              100,
+              101,
+              103,
+              107,
+              104
+            ]
+          },
+          "hybrid": {
+            "ndcg_at_5": 0.9580414003446834,
+            "top5": [
+              101,
+              100,
+              103,
+              104,
+              78
+            ]
+          },
+          "reranked": {
+            "ndcg_at_5": 0.9580414003446834,
+            "top5": [
+              101,
+              100,
+              78,
+              104,
+              103
+            ]
+          }
+        }
+      },
+      {
+        "query": "ultrabook with dual screen",
+        "runs": {
+          "bm25": {
+            "ndcg_at_5": 0.8609101556836468,
+            "top5": [
+              79,
+              135
+            ]
+          },
+          "dense": {
+            "ndcg_at_5": 1.0,
+            "top5": [
+              79,
+              80,
+              82,
+              159,
+              160
+            ]
+          },
+          "hybrid": {
+            "ndcg_at_5": 0.9753714271839448,
+            "top5": [
+              79,
+              135,
+              80,
+              82,
+              159
+            ]
+          },
+          "reranked": {
+            "ndcg_at_5": 0.9614557747069621,
+            "top5": [
+              79,
+              135,
+              159,
+              82,
+              80
+            ]
+          }
+        }
+      },
+      {
+        "query": "tablet with a pen",
+        "runs": {
+          "bm25": {
+            "ndcg_at_5": 1.0,
+            "top5": [
+              160,
+              159,
+              161,
+              81
+            ]
+          },
+          "dense": {
+            "ndcg_at_5": 0.6046674149214804,
+            "top5": [
+              13,
+              160,
+              161,
+              69,
+              111
+            ]
+          },
+          "hybrid": {
+            "ndcg_at_5": 0.9753714271839448,
+            "top5": [
+              160,
+              13,
+              161,
+              159,
+              81
+            ]
+          },
+          "reranked": {
+            "ndcg_at_5": 0.9914741064026341,
+            "top5": [
+              160,
+              161,
+              81,
+              159,
+              13
+            ]
+          }
+        }
+      },
+      {
+        "query": "work chair",
+        "runs": {
+          "bm25": {
+            "ndcg_at_5": 1.0,
+            "top5": [
+              14
+            ]
+          },
+          "dense": {
+            "ndcg_at_5": 1.0,
+            "top5": [
+              14,
+              15,
+              12,
+              13,
+              63
+            ]
+          },
+          "hybrid": {
+            "ndcg_at_5": 1.0,
+            "top5": [
+              14,
+              15,
+              12,
+              13,
+              63
+            ]
+          },
+          "reranked": {
+            "ndcg_at_5": 1.0,
+            "top5": [
+              14,
+              12,
+              15,
+              13,
+              103
+            ]
+          }
+        }
+      },
+      {
+        "query": "portable magnetic battery for iphone",
+        "runs": {
+          "bm25": {
+            "ndcg_at_5": 0.9680147827042069,
+            "top5": [
+              105,
+              107,
+              110,
+              161,
+              104
+            ]
+          },
+          "dense": {
+            "ndcg_at_5": 1.0,
+            "top5": [
+              105,
+              104,
+              108,
+              110,
+              123
+            ]
+          },
+          "hybrid": {
+            "ndcg_at_5": 1.0,
+            "top5": [
+              105,
+              104,
+              110,
+              107,
+              108
+            ]
+          },
+          "reranked": {
+            "ndcg_at_5": 0.9828422279067397,
+            "top5": [
+              105,
+              110,
+              104,
+              107,
+              121
+            ]
+          }
+        }
+      },
+      {
+        "query": "case for iphone 12",
+        "runs": {
+          "bm25": {
+            "ndcg_at_5": 1.0,
+            "top5": [
+              108,
+              107,
+              190,
+              104,
+              110
+            ]
+          },
+          "dense": {
+            "ndcg_at_5": 1.0,
+            "top5": [
+              108,
+              123,
+              122,
+              121,
+              124
+            ]
+          },
+          "hybrid": {
+            "ndcg_at_5": 1.0,
+            "top5": [
+              108,
+              123,
+              122,
+              104,
+              107
+            ]
+          },
+          "reranked": {
+            "ndcg_at_5": 1.0,
+            "top5": [
+              108,
+              104,
+              123,
+              122,
+              110
+            ]
+          }
+        }
+      },
+      {
+        "query": "notebook with m1 pro chip",
+        "runs": {
+          "bm25": {
+            "ndcg_at_5": 1.0,
+            "top5": [
+              78,
+              123,
+              80,
+              79,
+              126
+            ]
+          },
+          "dense": {
+            "ndcg_at_5": 0.6309297535714575,
+            "top5": [
+              80,
+              78,
+              134,
+              81,
+              82
+            ]
+          },
+          "hybrid": {
+            "ndcg_at_5": 1.0,
+            "top5": [
+              78,
+              80,
+              123,
+              79,
+              126
+            ]
+          },
+          "reranked": {
+            "ndcg_at_5": 1.0,
+            "top5": [
+              78,
+              123,
+              80,
+              126,
+              79
+            ]
+          }
+        }
+      },
+      {
+        "query": "laptop with retina screen",
+        "runs": {
+          "bm25": {
+            "ndcg_at_5": 0.6309297535714575,
+            "top5": [
+              79,
+              78,
+              81,
+              82,
+              80
+            ]
+          },
+          "dense": {
+            "ndcg_at_5": 0.5,
+            "top5": [
+              79,
+              80,
+              78,
+              82,
+              81
+            ]
+          },
+          "hybrid": {
+            "ndcg_at_5": 0.6309297535714575,
+            "top5": [
+              79,
+              78,
+              80,
+              81,
+              82
+            ]
+          },
+          "reranked": {
+            "ndcg_at_5": 0.6309297535714575,
+            "top5": [
+              79,
+              78,
+              80,
+              82,
+              81
+            ]
+          }
+        }
+      },
+      {
+        "query": "smart home speaker",
+        "runs": {
+          "bm25": {
+            "ndcg_at_5": 1.0,
+            "top5": [
+              99,
+              103,
+              43,
+              45,
+              47
+            ]
+          },
+          "dense": {
+            "ndcg_at_5": 1.0,
+            "top5": [
+              99,
+              103,
+              100,
+              107,
+              101
+            ]
+          },
+          "hybrid": {
+            "ndcg_at_5": 1.0,
+            "top5": [
+              99,
+              103,
+              47,
+              43,
+              45
+            ]
+          },
+          "reranked": {
+            "ndcg_at_5": 1.0,
+            "top5": [
+              99,
+              103,
+              100,
+              101,
+              47
+            ]
+          }
+        }
+      },
+      {
+        "query": "android phone by vivo",
+        "runs": {
+          "bm25": {
+            "ndcg_at_5": 1.0,
+            "top5": [
+              136,
+              134,
+              135,
+              161,
+              160
+            ]
+          },
+          "dense": {
+            "ndcg_at_5": 1.0,
+            "top5": [
+              136,
+              134,
+              135,
+              128,
+              130
+            ]
+          },
+          "hybrid": {
+            "ndcg_at_5": 1.0,
+            "top5": [
+              136,
+              134,
+              135,
+              128,
+              161
+            ]
+          },
+          "reranked": {
+            "ndcg_at_5": 1.0,
+            "top5": [
+              134,
+              136,
+              135,
+              161,
+              160
+            ]
+          }
+        }
+      },
+      {
+        "query": "task lighting for a desk",
+        "runs": {
+          "bm25": {
+            "ndcg_at_5": 1.0,
+            "top5": [
+              47,
+              110,
+              70,
+              82,
+              161
+            ]
+          },
+          "dense": {
+            "ndcg_at_5": 1.0,
+            "top5": [
+              47,
+              110,
+              46,
+              15,
+              79
+            ]
+          },
+          "hybrid": {
+            "ndcg_at_5": 1.0,
+            "top5": [
+              47,
+              110,
+              82,
+              70,
+              46
+            ]
+          },
+          "reranked": {
+            "ndcg_at_5": 1.0,
+            "top5": [
+              47,
+              110,
+              15,
+              112,
+              14
+            ]
+          }
+        }
+      },
+      {
+        "query": "iphone 13 pro",
+        "runs": {
+          "bm25": {
+            "ndcg_at_5": 0.8176035833928883,
+            "top5": [
+              123,
+              82,
+              78,
+              80,
+              79
+            ]
+          },
+          "dense": {
+            "ndcg_at_5": 0.8912965015913477,
+            "top5": [
+              123,
+              122,
+              108,
+              104,
+              105
+            ]
+          },
+          "hybrid": {
+            "ndcg_at_5": 0.8912965015913477,
+            "top5": [
+              123,
+              122,
+              78,
+              82,
+              108
+            ]
+          },
+          "reranked": {
+            "ndcg_at_5": 0.8760038393495232,
+            "top5": [
+              123,
+              82,
+              122,
+              104,
+              78
+            ]
+          }
+        }
+      },
+      {
+        "query": "flexible monopod for a camera",
+        "runs": {
+          "bm25": {
+            "ndcg_at_5": 0.992619504174702,
+            "top5": [
+              109,
+              111,
+              81,
+              112,
+              130
+            ]
+          },
+          "dense": {
+            "ndcg_at_5": 1.0,
+            "top5": [
+              109,
+              111,
+              112,
+              81,
+              57
+            ]
+          },
+          "hybrid": {
+            "ndcg_at_5": 1.0,
+            "top5": [
+              109,
+              111,
+              112,
+              81,
+              134
+            ]
+          },
+          "reranked": {
+            "ndcg_at_5": 1.0,
+            "top5": [
+              109,
+              111,
+              112,
+              130,
+              126
+            ]
+          }
+        }
+      },
+      {
+        "query": "tennis racket",
+        "runs": {
+          "bm25": {
+            "ndcg_at_5": 1.0,
+            "top5": [
+              152,
+              151
+            ]
+          },
+          "dense": {
+            "ndcg_at_5": 1.0,
+            "top5": [
+              152,
+              151,
+              145,
+              147,
+              140
+            ]
+          },
+          "hybrid": {
+            "ndcg_at_5": 1.0,
+            "top5": [
+              152,
+              151,
+              145,
+              147,
+              140
+            ]
+          },
+          "reranked": {
+            "ndcg_at_5": 1.0,
+            "top5": [
+              152,
+              151,
+              145,
+              140,
+              137
+            ]
+          }
+        }
+      },
+      {
+        "query": "carbon steel cookware",
+        "runs": {
+          "bm25": {
+            "ndcg_at_5": 0.9753714271839448,
+            "top5": [
+              52,
+              190,
+              68,
+              71
+            ]
+          },
+          "dense": {
+            "ndcg_at_5": 0.9138778446351128,
+            "top5": [
+              52,
+              24,
+              74,
+              68,
+              58
+            ]
+          },
+          "hybrid": {
+            "ndcg_at_5": 0.9860843475230173,
+            "top5": [
+              52,
+              68,
+              24,
+              190,
+              71
+            ]
+          },
+          "reranked": {
+            "ndcg_at_5": 0.9914741064026341,
+            "top5": [
+              52,
+              68,
+              190,
+              71,
+              24
+            ]
+          }
+        }
+      },
+      {
+        "query": "shea butter body wash",
+        "runs": {
+          "bm25": {
+            "ndcg_at_5": 1.0,
+            "top5": [
+              119,
+              120
+            ]
+          },
+          "dense": {
+            "ndcg_at_5": 0.9828422279067397,
+            "top5": [
+              119,
+              118,
+              120,
+              32,
+              63
+            ]
+          },
+          "hybrid": {
+            "ndcg_at_5": 1.0,
+            "top5": [
+              119,
+              120,
+              118,
+              32,
+              63
+            ]
+          },
+          "reranked": {
+            "ndcg_at_5": 1.0,
+            "top5": [
+              119,
+              120,
+              118,
+              1,
+              32
+            ]
+          }
+        }
+      },
+      {
+        "query": "cat food",
+        "runs": {
+          "bm25": {
+            "ndcg_at_5": 1.0,
+            "top5": [
+              18,
+              22,
+              65,
+              27,
+              64
+            ]
+          },
+          "dense": {
+            "ndcg_at_5": 1.0,
+            "top5": [
+              18,
+              22,
+              35,
+              19,
+              52
+            ]
+          },
+          "hybrid": {
+            "ndcg_at_5": 1.0,
+            "top5": [
+              18,
+              22,
+              65,
+              35,
+              64
+            ]
+          },
+          "reranked": {
+            "ndcg_at_5": 1.0,
+            "top5": [
+              18,
+              22,
+              27,
+              64,
+              60
+            ]
+          }
+        }
+      },
+      {
+        "query": "rolex submariner watch",
+        "runs": {
+          "bm25": {
+            "ndcg_at_5": 0.9699816683043281,
+            "top5": [
+              98,
+              191,
+              95,
+              192,
+              97
+            ]
+          },
+          "dense": {
+            "ndcg_at_5": 0.9914741064026341,
+            "top5": [
+              98,
+              95,
+              191,
+              97,
+              96
+            ]
+          },
+          "hybrid": {
+            "ndcg_at_5": 0.9914741064026341,
+            "top5": [
+              98,
+              95,
+              191,
+              97,
+              192
+            ]
+          },
+          "reranked": {
+            "ndcg_at_5": 0.9699816683043281,
+            "top5": [
+              98,
+              191,
+              95,
+              192,
+              97
+            ]
+          }
+        }
+      },
+      {
+        "query": "bedside table",
+        "runs": {
+          "bm25": {
+            "ndcg_at_5": 1.0,
+            "top5": [
+              13,
+              47
+            ]
+          },
+          "dense": {
+            "ndcg_at_5": 1.0,
+            "top5": [
+              13,
+              47,
+              11,
+              69,
+              53
+            ]
+          },
+          "hybrid": {
+            "ndcg_at_5": 1.0,
+            "top5": [
+              13,
+              47,
+              11,
+              69,
+              53
+            ]
+          },
+          "reranked": {
+            "ndcg_at_5": 1.0,
+            "top5": [
+              13,
+              47,
+              11,
+              15,
+              12
+            ]
+          }
+        }
+      },
+      {
+        "query": "whole grain rice",
+        "runs": {
+          "bm25": {
+            "ndcg_at_5": 1.0,
+            "top5": [
+              38
+            ]
+          },
+          "dense": {
+            "ndcg_at_5": 1.0,
+            "top5": [
+              38,
+              32,
+              36,
+              33,
+              30
+            ]
+          },
+          "hybrid": {
+            "ndcg_at_5": 1.0,
+            "top5": [
+              38,
+              32,
+              36,
+              33,
+              30
+            ]
+          },
+          "reranked": {
+            "ndcg_at_5": 1.0,
+            "top5": [
+              38,
+              16,
+              32,
+              36,
+              33
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "recommendations": {
+    "catalog_products_checked": 149,
+    "judged_anchors": 12,
+    "intent_checks_passed": {
+      "similar": 12,
+      "complements": 12
+    },
+    "violations": [],
+    "cases": [
+      {
+        "anchor": 18,
+        "similar": [],
+        "complements": []
+      },
+      {
+        "anchor": 34,
+        "similar": [],
+        "complements": [
+          49,
+          59
+        ]
+      },
+      {
+        "anchor": 47,
+        "similar": [],
+        "complements": [
+          82,
+          14,
+          79,
+          81
+        ]
+      },
+      {
+        "anchor": 52,
+        "similar": [
+          68
+        ],
+        "complements": [
+          72,
+          70,
+          48
+        ]
+      },
+      {
+        "anchor": 78,
+        "similar": [
+          80,
+          82,
+          79,
+          81
+        ],
+        "complements": [
+          100,
+          103,
+          47,
+          14
+        ]
+      },
+      {
+        "anchor": 100,
+        "similar": [
+          101,
+          107
+        ],
+        "complements": [
+          121,
+          159,
+          78,
+          128
+        ]
+      },
+      {
+        "anchor": 105,
+        "similar": [],
+        "complements": [
+          123
+        ]
+      },
+      {
+        "anchor": 108,
+        "similar": [],
+        "complements": []
+      },
+      {
+        "anchor": 123,
+        "similar": [
+          122,
+          124,
+          121,
+          126
+        ],
+        "complements": [
+          105,
+          107,
+          100,
+          101
+        ]
+      },
+      {
+        "anchor": 133,
+        "similar": [
+          131,
+          124,
+          123,
+          129
+        ],
+        "complements": [
+          107,
+          100,
+          101
+        ]
+      },
+      {
+        "anchor": 152,
+        "similar": [],
+        "complements": [
+          151
+        ]
+      },
+      {
+        "anchor": 160,
+        "similar": [
+          161,
+          159
+        ],
+        "complements": [
+          107,
+          100,
+          101
+        ]
+      }
+    ]
+  },
+  "home_context": {
+    "metrics": {
+      "matching_queries": 22,
+      "ambiguous_or_out_of_catalog_queries": 8,
+      "correct_topics": 21,
+      "abstentions_on_unmatched_queries": 8,
+      "hybrid_abstentions_on_unmatched_queries": 0,
+      "homepage_reranker": {
+        "gated_retrieval_ndcg_at_4": 0.933214603362602,
+        "unguarded_learned_ndcg_at_4": 0.9271041086618218,
+        "context_ndcg_at_4": 0.9438800289540282
+      },
+      "context": {
+        "returned_items": 46,
+        "in_department": 46,
+        "department_precision": 1.0,
+        "expected_product_hit_queries": 21
+      },
+      "hybrid": {
+        "returned_items": 88,
+        "in_department": 64,
+        "department_precision": 0.7272727272727273,
+        "expected_product_hit_queries": 22
+      }
+    },
+    "cases": [
+      {
+        "query": "oven for reheating meals",
+        "expected_collection": "kitchen",
+        "selected_collection": "kitchen",
+        "context_ids": [
+          66
+        ],
+        "hybrid_ids": [
+          66,
+          19,
+          69,
+          65
+        ],
+        "gated_retrieval_ids": [
+          66
+        ],
+        "unguarded_learned_ids": [
+          66
+        ],
+        "unguarded_learned_ndcg_at_4": 1.0,
+        "context_ndcg_at_4": 1.0,
+        "gated_retrieval_ndcg_at_4": 1.0,
+        "context_in_department": 1,
+        "hybrid_in_department": 3,
+        "context_expected_hit": true,
+        "hybrid_expected_hit": true
+      },
+      {
+        "query": "drain cooked pasta",
+        "expected_collection": "kitchen",
+        "selected_collection": null,
+        "context_ids": [],
+        "hybrid_ids": [
+          63,
+          72,
+          57,
+          20
+        ],
+        "gated_retrieval_ids": [],
+        "unguarded_learned_ids": [],
+        "unguarded_learned_ndcg_at_4": 0.0,
+        "context_ndcg_at_4": 0.0,
+        "gated_retrieval_ndcg_at_4": 0.0,
+        "context_in_department": 0,
+        "hybrid_in_department": 3,
+        "context_expected_hit": false,
+        "hybrid_expected_hit": true
+      },
+      {
+        "query": "golf practice equipment",
+        "expected_collection": "sports",
+        "selected_collection": "sports",
+        "context_ids": [
+          149,
+          148
+        ],
+        "hybrid_ids": [
+          149,
+          148,
+          143,
+          151
+        ],
+        "gated_retrieval_ids": [
+          149,
+          148
+        ],
+        "unguarded_learned_ids": [
+          149,
+          148
+        ],
+        "unguarded_learned_ndcg_at_4": 1.0,
+        "context_ndcg_at_4": 1.0,
+        "gated_retrieval_ndcg_at_4": 1.0,
+        "context_in_department": 2,
+        "hybrid_in_department": 4,
+        "context_expected_hit": true,
+        "hybrid_expected_hit": true
+      },
+      {
+        "query": "cricket equipment",
+        "expected_collection": "sports",
+        "selected_collection": "sports",
+        "context_ids": [
+          143,
+          142,
+          145,
+          144
+        ],
+        "hybrid_ids": [
+          143,
+          142,
+          145,
+          144
+        ],
+        "gated_retrieval_ids": [
+          143,
+          142,
+          145,
+          144
+        ],
+        "unguarded_learned_ids": [
+          143,
+          142,
+          145,
+          144
+        ],
+        "unguarded_learned_ndcg_at_4": 1.0,
+        "context_ndcg_at_4": 1.0,
+        "gated_retrieval_ndcg_at_4": 1.0,
+        "context_in_department": 4,
+        "hybrid_in_department": 4,
+        "context_expected_hit": true,
+        "hybrid_expected_hit": true
+      },
+      {
+        "query": "equipment for fielding baseball",
+        "expected_collection": "sports",
+        "selected_collection": "sports",
+        "context_ids": [
+          138,
+          139,
+          150
+        ],
+        "hybrid_ids": [
+          139,
+          138,
+          150,
+          152
+        ],
+        "gated_retrieval_ids": [
+          138,
+          139,
+          150
+        ],
+        "unguarded_learned_ids": [
+          138,
+          139,
+          150
+        ],
+        "unguarded_learned_ndcg_at_4": 1.0,
+        "context_ndcg_at_4": 1.0,
+        "gated_retrieval_ndcg_at_4": 1.0,
+        "context_in_department": 3,
+        "hybrid_in_department": 4,
+        "context_expected_hit": true,
+        "hybrid_expected_hit": true
+      },
+      {
+        "query": "moisturizing body wash",
+        "expected_collection": "beauty",
+        "selected_collection": "beauty",
+        "context_ids": [
+          119
+        ],
+        "hybrid_ids": [
+          119,
+          120,
+          118,
+          1
+        ],
+        "gated_retrieval_ids": [
+          119
+        ],
+        "unguarded_learned_ids": [
+          119
+        ],
+        "unguarded_learned_ndcg_at_4": 1.0,
+        "context_ndcg_at_4": 1.0,
+        "gated_retrieval_ndcg_at_4": 1.0,
+        "context_in_department": 1,
+        "hybrid_in_department": 4,
+        "context_expected_hit": true,
+        "hybrid_expected_hit": true
+      },
+      {
+        "query": "make lashes look longer",
+        "expected_collection": "beauty",
+        "selected_collection": "beauty",
+        "context_ids": [
+          1
+        ],
+        "hybrid_ids": [
+          1,
+          158,
+          2,
+          154
+        ],
+        "gated_retrieval_ids": [
+          1
+        ],
+        "unguarded_learned_ids": [
+          1
+        ],
+        "unguarded_learned_ndcg_at_4": 1.0,
+        "context_ndcg_at_4": 1.0,
+        "gated_retrieval_ndcg_at_4": 1.0,
+        "context_in_department": 1,
+        "hybrid_in_department": 2,
+        "context_expected_hit": true,
+        "hybrid_expected_hit": true
+      },
+      {
+        "query": "floral perfume",
+        "expected_collection": "beauty",
+        "selected_collection": "beauty",
+        "context_ids": [
+          10,
+          8,
+          7,
+          6
+        ],
+        "hybrid_ids": [
+          7,
+          8,
+          10,
+          9
+        ],
+        "gated_retrieval_ids": [
+          7,
+          8,
+          10,
+          6
+        ],
+        "unguarded_learned_ids": [
+          10,
+          8,
+          7,
+          6
+        ],
+        "unguarded_learned_ndcg_at_4": 0.7653606369886217,
+        "context_ndcg_at_4": 0.7653606369886217,
+        "gated_retrieval_ndcg_at_4": 0.5307212739772434,
+        "context_in_department": 4,
+        "hybrid_in_department": 4,
+        "context_expected_hit": true,
+        "hybrid_expected_hit": true
+      },
+      {
+        "query": "leather strap wristwatch",
+        "expected_collection": "style",
+        "selected_collection": "style",
+        "context_ids": [
+          93
+        ],
+        "hybrid_ids": [
+          93,
+          194,
+          190,
+          138
+        ],
+        "gated_retrieval_ids": [
+          93
+        ],
+        "unguarded_learned_ids": [
+          93
+        ],
+        "unguarded_learned_ndcg_at_4": 1.0,
+        "context_ndcg_at_4": 1.0,
+        "gated_retrieval_ndcg_at_4": 1.0,
+        "context_in_department": 1,
+        "hybrid_in_department": 3,
+        "context_expected_hit": true,
+        "hybrid_expected_hit": true
+      },
+      {
+        "query": "black sunglasses",
+        "expected_collection": "style",
+        "selected_collection": "style",
+        "context_ids": [
+          154,
+          158,
+          155,
+          156
+        ],
+        "hybrid_ids": [
+          154,
+          156,
+          158,
+          155
+        ],
+        "gated_retrieval_ids": [
+          154,
+          156,
+          158,
+          155
+        ],
+        "unguarded_learned_ids": [
+          158,
+          154,
+          155,
+          156
+        ],
+        "unguarded_learned_ndcg_at_4": 0.6309297535714575,
+        "context_ndcg_at_4": 1.0,
+        "gated_retrieval_ndcg_at_4": 1.0,
+        "context_in_department": 4,
+        "hybrid_in_department": 4,
+        "context_expected_hit": true,
+        "hybrid_expected_hit": true
+      },
+      {
+        "query": "living room seat",
+        "expected_collection": "home",
+        "selected_collection": "home",
+        "context_ids": [
+          12,
+          43,
+          13,
+          11
+        ],
+        "hybrid_ids": [
+          12,
+          47,
+          14,
+          43
+        ],
+        "gated_retrieval_ids": [
+          12,
+          43,
+          13,
+          15
+        ],
+        "unguarded_learned_ids": [
+          12,
+          43,
+          13,
+          11
+        ],
+        "unguarded_learned_ndcg_at_4": 1.0,
+        "context_ndcg_at_4": 1.0,
+        "gated_retrieval_ndcg_at_4": 1.0,
+        "context_in_department": 4,
+        "hybrid_in_department": 2,
+        "context_expected_hit": true,
+        "hybrid_expected_hit": true
+      },
+      {
+        "query": "cherry bedside table",
+        "expected_collection": "home",
+        "selected_collection": "home",
+        "context_ids": [
+          13
+        ],
+        "hybrid_ids": [
+          13,
+          47,
+          69,
+          53
+        ],
+        "gated_retrieval_ids": [
+          13
+        ],
+        "unguarded_learned_ids": [
+          13
+        ],
+        "unguarded_learned_ndcg_at_4": 1.0,
+        "context_ndcg_at_4": 1.0,
+        "gated_retrieval_ndcg_at_4": 1.0,
+        "context_in_department": 1,
+        "hybrid_in_department": 1,
+        "context_expected_hit": true,
+        "hybrid_expected_hit": true
+      },
+      {
+        "query": "fruit for smoothie",
+        "expected_collection": "pantry",
+        "selected_collection": "pantry",
+        "context_ids": [
+          16,
+          40,
+          30,
+          33
+        ],
+        "hybrid_ids": [
+          40,
+          16,
+          33,
+          31
+        ],
+        "gated_retrieval_ids": [
+          40,
+          16,
+          33,
+          31
+        ],
+        "unguarded_learned_ids": [
+          16,
+          40,
+          30,
+          33
+        ],
+        "unguarded_learned_ndcg_at_4": 1.0,
+        "context_ndcg_at_4": 1.0,
+        "gated_retrieval_ndcg_at_4": 1.0,
+        "context_in_department": 4,
+        "hybrid_in_department": 4,
+        "context_expected_hit": true,
+        "hybrid_expected_hit": true
+      },
+      {
+        "query": "instant coffee drink",
+        "expected_collection": "pantry",
+        "selected_collection": "pantry",
+        "context_ids": [
+          34,
+          39
+        ],
+        "hybrid_ids": [
+          39,
+          34,
+          59,
+          42
+        ],
+        "gated_retrieval_ids": [
+          34,
+          39
+        ],
+        "unguarded_learned_ids": [
+          34,
+          39
+        ],
+        "unguarded_learned_ndcg_at_4": 1.0,
+        "context_ndcg_at_4": 1.0,
+        "gated_retrieval_ndcg_at_4": 1.0,
+        "context_in_department": 2,
+        "hybrid_in_department": 3,
+        "context_expected_hit": true,
+        "hybrid_expected_hit": true
+      },
+      {
+        "query": "cat kibble",
+        "expected_collection": "pets",
+        "selected_collection": "pets",
+        "context_ids": [
+          18
+        ],
+        "hybrid_ids": [
+          18,
+          52,
+          64,
+          6
+        ],
+        "gated_retrieval_ids": [
+          18
+        ],
+        "unguarded_learned_ids": [
+          18
+        ],
+        "unguarded_learned_ndcg_at_4": 1.0,
+        "context_ndcg_at_4": 1.0,
+        "gated_retrieval_ndcg_at_4": 1.0,
+        "context_in_department": 1,
+        "hybrid_in_department": 1,
+        "context_expected_hit": true,
+        "hybrid_expected_hit": true
+      },
+      {
+        "query": "apple ipad mini",
+        "expected_collection": "tablets",
+        "selected_collection": "tablets",
+        "context_ids": [
+          159
+        ],
+        "hybrid_ids": [
+          159,
+          103,
+          104,
+          100
+        ],
+        "gated_retrieval_ids": [
+          159
+        ],
+        "unguarded_learned_ids": [
+          159
+        ],
+        "unguarded_learned_ndcg_at_4": 1.0,
+        "context_ndcg_at_4": 1.0,
+        "gated_retrieval_ndcg_at_4": 1.0,
+        "context_in_department": 1,
+        "hybrid_in_department": 1,
+        "context_expected_hit": true,
+        "hybrid_expected_hit": true
+      },
+      {
+        "query": "smart speaker for the living room",
+        "expected_collection": "audio",
+        "selected_collection": "audio",
+        "context_ids": [
+          99,
+          103
+        ],
+        "hybrid_ids": [
+          99,
+          103,
+          47,
+          107
+        ],
+        "gated_retrieval_ids": [
+          99,
+          103
+        ],
+        "unguarded_learned_ids": [
+          99,
+          103
+        ],
+        "unguarded_learned_ndcg_at_4": 1.0,
+        "context_ndcg_at_4": 1.0,
+        "gated_retrieval_ndcg_at_4": 1.0,
+        "context_in_department": 2,
+        "hybrid_in_department": 3,
+        "context_expected_hit": true,
+        "hybrid_expected_hit": true
+      },
+      {
+        "query": "protective iphone case",
+        "expected_collection": "accessories",
+        "selected_collection": "accessories",
+        "context_ids": [
+          108
+        ],
+        "hybrid_ids": [
+          108,
+          104,
+          105,
+          190
+        ],
+        "gated_retrieval_ids": [
+          108
+        ],
+        "unguarded_learned_ids": [
+          108
+        ],
+        "unguarded_learned_ndcg_at_4": 1.0,
+        "context_ndcg_at_4": 1.0,
+        "gated_retrieval_ndcg_at_4": 1.0,
+        "context_in_department": 1,
+        "hybrid_in_department": 3,
+        "context_expected_hit": true,
+        "hybrid_expected_hit": true
+      },
+      {
+        "query": "laptop with two screens",
+        "expected_collection": "computers",
+        "selected_collection": "computers",
+        "context_ids": [
+          79
+        ],
+        "hybrid_ids": [
+          79,
+          82,
+          81,
+          80
+        ],
+        "gated_retrieval_ids": [
+          79
+        ],
+        "unguarded_learned_ids": [
+          79
+        ],
+        "unguarded_learned_ndcg_at_4": 1.0,
+        "context_ndcg_at_4": 1.0,
+        "gated_retrieval_ndcg_at_4": 1.0,
+        "context_in_department": 1,
+        "hybrid_in_department": 4,
+        "context_expected_hit": true,
+        "hybrid_expected_hit": true
+      },
+      {
+        "query": "wireless headphones",
+        "expected_collection": "audio",
+        "selected_collection": "audio",
+        "context_ids": [
+          107,
+          101,
+          100
+        ],
+        "hybrid_ids": [
+          107,
+          101,
+          100,
+          103
+        ],
+        "gated_retrieval_ids": [
+          107,
+          101,
+          100
+        ],
+        "unguarded_learned_ids": [
+          107,
+          101,
+          100
+        ],
+        "unguarded_learned_ndcg_at_4": 1.0,
+        "context_ndcg_at_4": 1.0,
+        "gated_retrieval_ndcg_at_4": 1.0,
+        "context_in_department": 3,
+        "hybrid_in_department": 4,
+        "context_expected_hit": true,
+        "hybrid_expected_hit": true
+      },
+      {
+        "query": "samsung galaxy s10",
+        "expected_collection": "phones",
+        "selected_collection": "phones",
+        "context_ids": [
+          133,
+          131,
+          121,
+          122
+        ],
+        "hybrid_ids": [
+          133,
+          131,
+          160,
+          161
+        ],
+        "gated_retrieval_ids": [
+          133,
+          131,
+          134,
+          121
+        ],
+        "unguarded_learned_ids": [
+          133,
+          131,
+          121,
+          122
+        ],
+        "unguarded_learned_ndcg_at_4": 1.0,
+        "context_ndcg_at_4": 1.0,
+        "gated_retrieval_ndcg_at_4": 1.0,
+        "context_in_department": 4,
+        "hybrid_in_department": 2,
+        "context_expected_hit": true,
+        "hybrid_expected_hit": true
+      },
+      {
+        "query": "desk reading lamp",
+        "expected_collection": "workspace",
+        "selected_collection": "workspace",
+        "context_ids": [
+          47
+        ],
+        "hybrid_ids": [
+          47,
+          110,
+          82,
+          79
+        ],
+        "gated_retrieval_ids": [
+          47
+        ],
+        "unguarded_learned_ids": [
+          47
+        ],
+        "unguarded_learned_ndcg_at_4": 1.0,
+        "context_ndcg_at_4": 1.0,
+        "gated_retrieval_ndcg_at_4": 1.0,
+        "context_in_department": 1,
+        "hybrid_in_department": 1,
+        "context_expected_hit": true,
+        "hybrid_expected_hit": true
+      },
+      {
+        "query": "bulk unprinted paper",
+        "expected_collection": null,
+        "selected_collection": null,
+        "context_ids": [],
+        "hybrid_ids": [
+          76,
+          111,
+          36,
+          71
+        ],
+        "gated_retrieval_ids": [],
+        "unguarded_learned_ids": [],
+        "unguarded_learned_ndcg_at_4": 0.0,
+        "context_ndcg_at_4": 0.0,
+        "gated_retrieval_ndcg_at_4": 0.0,
+        "context_in_department": 0,
+        "hybrid_in_department": 0,
+        "context_expected_hit": false,
+        "hybrid_expected_hit": false
+      },
+      {
+        "query": "car insurance renewal",
+        "expected_collection": null,
+        "selected_collection": null,
+        "context_ids": [],
+        "hybrid_ids": [
+          29,
+          158,
+          155,
+          4
+        ],
+        "gated_retrieval_ids": [],
+        "unguarded_learned_ids": [],
+        "unguarded_learned_ndcg_at_4": 0.0,
+        "context_ndcg_at_4": 0.0,
+        "gated_retrieval_ndcg_at_4": 0.0,
+        "context_in_department": 0,
+        "hybrid_in_department": 0,
+        "context_expected_hit": false,
+        "hybrid_expected_hit": false
+      },
+      {
+        "query": "live concert admission",
+        "expected_collection": null,
+        "selected_collection": null,
+        "context_ids": [],
+        "hybrid_ids": [
+          12,
+          112,
+          103,
+          47
+        ],
+        "gated_retrieval_ids": [],
+        "unguarded_learned_ids": [],
+        "unguarded_learned_ndcg_at_4": 0.0,
+        "context_ndcg_at_4": 0.0,
+        "gated_retrieval_ndcg_at_4": 0.0,
+        "context_in_department": 0,
+        "hybrid_in_department": 0,
+        "context_expected_hit": false,
+        "hybrid_expected_hit": false
+      },
+      {
+        "query": "replace washing machine motor",
+        "expected_collection": null,
+        "selected_collection": null,
+        "context_ids": [],
+        "hybrid_ids": [
+          61,
+          119,
+          50,
+          57
+        ],
+        "gated_retrieval_ids": [],
+        "unguarded_learned_ids": [],
+        "unguarded_learned_ndcg_at_4": 0.0,
+        "context_ndcg_at_4": 0.0,
+        "gated_retrieval_ndcg_at_4": 0.0,
+        "context_in_department": 0,
+        "hybrid_in_department": 0,
+        "context_expected_hit": false,
+        "hybrid_expected_hit": false
+      },
+      {
+        "query": "renew my passport",
+        "expected_collection": null,
+        "selected_collection": null,
+        "context_ids": [],
+        "hybrid_ids": [
+          29,
+          128,
+          2,
+          42
+        ],
+        "gated_retrieval_ids": [],
+        "unguarded_learned_ids": [],
+        "unguarded_learned_ndcg_at_4": 0.0,
+        "context_ndcg_at_4": 0.0,
+        "gated_retrieval_ndcg_at_4": 0.0,
+        "context_in_department": 0,
+        "hybrid_in_department": 0,
+        "context_expected_hit": false,
+        "hybrid_expected_hit": false
+      },
+      {
+        "query": "acrylic portrait on canvas",
+        "expected_collection": null,
+        "selected_collection": null,
+        "context_ids": [],
+        "hybrid_ids": [
+          2,
+          111,
+          112,
+          109
+        ],
+        "gated_retrieval_ids": [],
+        "unguarded_learned_ids": [],
+        "unguarded_learned_ndcg_at_4": 0.0,
+        "context_ndcg_at_4": 0.0,
+        "gated_retrieval_ndcg_at_4": 0.0,
+        "context_in_department": 0,
+        "hybrid_in_department": 0,
+        "context_expected_hit": false,
+        "hybrid_expected_hit": false
+      },
+      {
+        "query": "upgrade accounting software subscription",
+        "expected_collection": null,
+        "selected_collection": null,
+        "context_ids": [],
+        "hybrid_ids": [
+          105,
+          82,
+          112,
+          128
+        ],
+        "gated_retrieval_ids": [],
+        "unguarded_learned_ids": [],
+        "unguarded_learned_ndcg_at_4": 0.0,
+        "context_ndcg_at_4": 0.0,
+        "gated_retrieval_ndcg_at_4": 0.0,
+        "context_in_department": 0,
+        "hybrid_in_department": 0,
+        "context_expected_hit": false,
+        "hybrid_expected_hit": false
+      },
+      {
+        "query": "apple",
+        "expected_collection": null,
+        "selected_collection": null,
+        "context_ids": [],
+        "hybrid_ids": [
+          103,
+          16,
+          104,
+          78
+        ],
+        "gated_retrieval_ids": [],
+        "unguarded_learned_ids": [],
+        "unguarded_learned_ndcg_at_4": 0.0,
+        "context_ndcg_at_4": 0.0,
+        "gated_retrieval_ndcg_at_4": 0.0,
+        "context_in_department": 0,
+        "hybrid_in_department": 0,
+        "context_expected_hit": false,
+        "hybrid_expected_hit": false
+      }
+    ]
+  }
+}

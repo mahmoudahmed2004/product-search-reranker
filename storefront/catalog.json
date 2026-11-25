@@ -4,6 +4,308 @@
   "currency": "USD",
   "products": [
     {
+      "id": 1,
+      "slug": "essence-mascara-lash-princess",
+      "title": "Essence Mascara Lash Princess",
+      "description": "The Essence Mascara Lash Princess is a popular mascara known for its volumizing and lengthening effects. Achieve dramatic lashes with this long-lasting and cruelty-free formula.",
+      "brand": "Essence",
+      "price_cents": 999,
+      "stock": 99,
+      "collection": "beauty",
+      "kind": "mascara",
+      "tags": [
+        "beauty",
+        "mascara"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 2,
+      "slug": "eyeshadow-palette-with-mirror",
+      "title": "Eyeshadow Palette with Mirror",
+      "description": "The Eyeshadow Palette with Mirror offers a versatile range of eyeshadow shades for creating stunning eye looks. With a built-in mirror, it's convenient for on-the-go makeup application.",
+      "brand": "Glamour Beauty",
+      "price_cents": 1999,
+      "stock": 34,
+      "collection": "beauty",
+      "kind": "eyeshadow",
+      "tags": [
+        "beauty",
+        "eyeshadow"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/beauty/eyeshadow-palette-with-mirror/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/beauty/eyeshadow-palette-with-mirror/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 3,
+      "slug": "powder-canister",
+      "title": "Powder Canister",
+      "description": "The Powder Canister is a finely milled setting powder designed to set makeup and control shine. With a lightweight and translucent formula, it provides a smooth and matte finish.",
+      "brand": "Velvet Touch",
+      "price_cents": 1499,
+      "stock": 89,
+      "collection": "beauty",
+      "kind": "face-powder",
+      "tags": [
+        "beauty",
+        "face powder"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/beauty/powder-canister/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/beauty/powder-canister/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 4,
+      "slug": "red-lipstick",
+      "title": "Red Lipstick",
+      "description": "The Red Lipstick is a classic and bold choice for adding a pop of color to your lips. With a creamy and pigmented formula, it provides a vibrant and long-lasting finish.",
+      "brand": "Chic Cosmetics",
+      "price_cents": 1299,
+      "stock": 91,
+      "collection": "beauty",
+      "kind": "lipstick",
+      "tags": [
+        "beauty",
+        "lipstick"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/beauty/red-lipstick/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/beauty/red-lipstick/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 5,
+      "slug": "red-nail-polish",
+      "title": "Red Nail Polish",
+      "description": "The Red Nail Polish offers a rich and glossy red hue for vibrant and polished nails. With a quick-drying formula, it provides a salon-quality finish at home.",
+      "brand": "Nail Couture",
+      "price_cents": 899,
+      "stock": 79,
+      "collection": "beauty",
+      "kind": "nail-polish",
+      "tags": [
+        "beauty",
+        "nail polish"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/beauty/red-nail-polish/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/beauty/red-nail-polish/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 6,
+      "slug": "calvin-klein-ck-one",
+      "title": "Calvin Klein CK One",
+      "description": "CK One by Calvin Klein is a classic unisex fragrance, known for its fresh and clean scent. It's a versatile fragrance suitable for everyday wear.",
+      "brand": "Calvin Klein",
+      "price_cents": 4999,
+      "stock": 29,
+      "collection": "beauty",
+      "kind": "fragrance",
+      "tags": [
+        "fragrances",
+        "perfumes"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/fragrances/calvin-klein-ck-one/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/fragrances/calvin-klein-ck-one/1.webp",
+        "https://cdn.dummyjson.com/product-images/fragrances/calvin-klein-ck-one/2.webp",
+        "https://cdn.dummyjson.com/product-images/fragrances/calvin-klein-ck-one/3.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 7,
+      "slug": "chanel-coco-noir-eau-de",
+      "title": "Chanel Coco Noir Eau De",
+      "description": "Coco Noir by Chanel is an elegant and mysterious fragrance, featuring notes of grapefruit, rose, and sandalwood. Perfect for evening occasions.",
+      "brand": "Chanel",
+      "price_cents": 12999,
+      "stock": 58,
+      "collection": "beauty",
+      "kind": "fragrance",
+      "tags": [
+        "fragrances",
+        "perfumes"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/fragrances/chanel-coco-noir-eau-de/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/fragrances/chanel-coco-noir-eau-de/1.webp",
+        "https://cdn.dummyjson.com/product-images/fragrances/chanel-coco-noir-eau-de/2.webp",
+        "https://cdn.dummyjson.com/product-images/fragrances/chanel-coco-noir-eau-de/3.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 8,
+      "slug": "dior-j-adore",
+      "title": "Dior J'adore",
+      "description": "J'adore by Dior is a luxurious and floral fragrance, known for its blend of ylang-ylang, rose, and jasmine. It embodies femininity and sophistication.",
+      "brand": "Dior",
+      "price_cents": 8999,
+      "stock": 98,
+      "collection": "beauty",
+      "kind": "fragrance",
+      "tags": [
+        "fragrances",
+        "perfumes"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/fragrances/dior-j'adore/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/fragrances/dior-j'adore/1.webp",
+        "https://cdn.dummyjson.com/product-images/fragrances/dior-j'adore/2.webp",
+        "https://cdn.dummyjson.com/product-images/fragrances/dior-j'adore/3.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 9,
+      "slug": "dolce-shine-eau-de",
+      "title": "Dolce Shine Eau de",
+      "description": "Dolce Shine by Dolce & Gabbana is a vibrant and fruity fragrance, featuring notes of mango, jasmine, and blonde woods. It's a joyful and youthful scent.",
+      "brand": "Dolce & Gabbana",
+      "price_cents": 6999,
+      "stock": 4,
+      "collection": "beauty",
+      "kind": "fragrance",
+      "tags": [
+        "fragrances",
+        "perfumes"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/fragrances/dolce-shine-eau-de/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/fragrances/dolce-shine-eau-de/1.webp",
+        "https://cdn.dummyjson.com/product-images/fragrances/dolce-shine-eau-de/2.webp",
+        "https://cdn.dummyjson.com/product-images/fragrances/dolce-shine-eau-de/3.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 10,
+      "slug": "gucci-bloom-eau-de",
+      "title": "Gucci Bloom Eau de",
+      "description": "Gucci Bloom by Gucci is a floral and captivating fragrance, with notes of tuberose, jasmine, and Rangoon creeper. It's a modern and romantic scent.",
+      "brand": "Gucci",
+      "price_cents": 7999,
+      "stock": 91,
+      "collection": "beauty",
+      "kind": "fragrance",
+      "tags": [
+        "fragrances",
+        "perfumes"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/fragrances/gucci-bloom-eau-de/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/fragrances/gucci-bloom-eau-de/1.webp",
+        "https://cdn.dummyjson.com/product-images/fragrances/gucci-bloom-eau-de/2.webp",
+        "https://cdn.dummyjson.com/product-images/fragrances/gucci-bloom-eau-de/3.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 11,
+      "slug": "annibale-colombo-bed",
+      "title": "Annibale Colombo Bed",
+      "description": "The Annibale Colombo Bed is a luxurious and elegant bed frame, crafted with high-quality materials for a comfortable and stylish bedroom.",
+      "brand": "Annibale Colombo",
+      "price_cents": 189999,
+      "stock": 88,
+      "collection": "home",
+      "kind": "bed",
+      "tags": [
+        "furniture",
+        "beds"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-bed/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-bed/1.webp",
+        "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-bed/2.webp",
+        "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-bed/3.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 12,
+      "slug": "annibale-colombo-sofa",
+      "title": "Annibale Colombo Sofa",
+      "description": "The Annibale Colombo Sofa is a sophisticated and comfortable seating option, featuring exquisite design and premium upholstery for your living room.",
+      "brand": "Annibale Colombo",
+      "price_cents": 249999,
+      "stock": 60,
+      "collection": "home",
+      "kind": "sofa",
+      "tags": [
+        "furniture",
+        "sofas"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-sofa/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-sofa/1.webp",
+        "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-sofa/2.webp",
+        "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-sofa/3.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 5
+    },
+    {
+      "id": 13,
+      "slug": "bedside-table-african-cherry",
+      "title": "Bedside Table African Cherry",
+      "description": "The Bedside Table in African Cherry is a stylish and functional addition to your bedroom, providing convenient storage space and a touch of elegance.",
+      "brand": "Furniture Co.",
+      "price_cents": 29999,
+      "stock": 64,
+      "collection": "home",
+      "kind": "side-table",
+      "tags": [
+        "furniture",
+        "bedside tables"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/furniture/bedside-table-african-cherry/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/furniture/bedside-table-african-cherry/1.webp",
+        "https://cdn.dummyjson.com/product-images/furniture/bedside-table-african-cherry/2.webp",
+        "https://cdn.dummyjson.com/product-images/furniture/bedside-table-african-cherry/3.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
       "id": 14,
       "slug": "knoll-saarinen-executive-conference-chair",
       "title": "Knoll Saarinen Executive Conference Chair",
@@ -25,7 +327,679 @@
       ],
       "device": "",
       "compatible_with": [],
-      "featured": 4
+      "featured": 10
+    },
+    {
+      "id": 15,
+      "slug": "wooden-bathroom-sink-with-mirror",
+      "title": "Wooden Bathroom Sink With Mirror",
+      "description": "The Wooden Bathroom Sink with Mirror is a unique and stylish addition to your bathroom, featuring a wooden sink countertop and a matching mirror.",
+      "brand": "Bath Trends",
+      "price_cents": 79999,
+      "stock": 7,
+      "collection": "home",
+      "kind": "bathroom-vanity",
+      "tags": [
+        "furniture",
+        "bathroom"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/furniture/wooden-bathroom-sink-with-mirror/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/furniture/wooden-bathroom-sink-with-mirror/1.webp",
+        "https://cdn.dummyjson.com/product-images/furniture/wooden-bathroom-sink-with-mirror/2.webp",
+        "https://cdn.dummyjson.com/product-images/furniture/wooden-bathroom-sink-with-mirror/3.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 16,
+      "slug": "apple",
+      "title": "Apple",
+      "description": "Fresh and crisp apples, perfect for snacking or incorporating into various recipes.",
+      "brand": "",
+      "price_cents": 199,
+      "stock": 8,
+      "collection": "pantry",
+      "kind": "fruit",
+      "tags": [
+        "fruits"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/groceries/apple/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/groceries/apple/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 17,
+      "slug": "beef-steak",
+      "title": "Beef Steak",
+      "description": "High-quality beef steak, great for grilling or cooking to your preferred level of doneness.",
+      "brand": "",
+      "price_cents": 1299,
+      "stock": 86,
+      "collection": "pantry",
+      "kind": "meat",
+      "tags": [
+        "meat"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/groceries/beef-steak/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/groceries/beef-steak/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 18,
+      "slug": "cat-food",
+      "title": "Cat Food",
+      "description": "Nutritious cat food formulated to meet the dietary needs of your feline friend.",
+      "brand": "",
+      "price_cents": 899,
+      "stock": 46,
+      "collection": "pets",
+      "kind": "cat-food",
+      "tags": [
+        "pet supplies",
+        "cat food"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/groceries/cat-food/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/groceries/cat-food/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 19,
+      "slug": "chicken-meat",
+      "title": "Chicken Meat",
+      "description": "Fresh and tender chicken meat, suitable for various culinary preparations.",
+      "brand": "",
+      "price_cents": 999,
+      "stock": 97,
+      "collection": "pantry",
+      "kind": "meat",
+      "tags": [
+        "meat"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/groceries/chicken-meat/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/groceries/chicken-meat/1.webp",
+        "https://cdn.dummyjson.com/product-images/groceries/chicken-meat/2.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 20,
+      "slug": "cooking-oil",
+      "title": "Cooking Oil",
+      "description": "Versatile cooking oil suitable for frying, sautéing, and various culinary applications.",
+      "brand": "",
+      "price_cents": 499,
+      "stock": 10,
+      "collection": "pantry",
+      "kind": "oil",
+      "tags": [
+        "cooking essentials"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/groceries/cooking-oil/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/groceries/cooking-oil/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 21,
+      "slug": "cucumber",
+      "title": "Cucumber",
+      "description": "Crisp and hydrating cucumbers, ideal for salads, snacks, or as a refreshing side.",
+      "brand": "",
+      "price_cents": 149,
+      "stock": 84,
+      "collection": "pantry",
+      "kind": "vegetable",
+      "tags": [
+        "vegetables"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/groceries/cucumber/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/groceries/cucumber/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 22,
+      "slug": "dog-food",
+      "title": "Dog Food",
+      "description": "Specially formulated dog food designed to provide essential nutrients for your canine companion.",
+      "brand": "",
+      "price_cents": 1099,
+      "stock": 71,
+      "collection": "pets",
+      "kind": "dog-food",
+      "tags": [
+        "pet supplies",
+        "dog food"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/groceries/dog-food/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/groceries/dog-food/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 23,
+      "slug": "eggs",
+      "title": "Eggs",
+      "description": "Fresh eggs, a versatile ingredient for baking, cooking, or breakfast.",
+      "brand": "",
+      "price_cents": 299,
+      "stock": 9,
+      "collection": "pantry",
+      "kind": "eggs",
+      "tags": [
+        "dairy"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/groceries/eggs/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/groceries/eggs/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 24,
+      "slug": "fish-steak",
+      "title": "Fish Steak",
+      "description": "Quality fish steak, suitable for grilling, baking, or pan-searing.",
+      "brand": "",
+      "price_cents": 1499,
+      "stock": 74,
+      "collection": "pantry",
+      "kind": "seafood",
+      "tags": [
+        "seafood"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/groceries/fish-steak/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/groceries/fish-steak/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 25,
+      "slug": "green-bell-pepper",
+      "title": "Green Bell Pepper",
+      "description": "Fresh and vibrant green bell pepper, perfect for adding color and flavor to your dishes.",
+      "brand": "",
+      "price_cents": 129,
+      "stock": 33,
+      "collection": "pantry",
+      "kind": "vegetable",
+      "tags": [
+        "vegetables"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/groceries/green-bell-pepper/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/groceries/green-bell-pepper/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 26,
+      "slug": "green-chili-pepper",
+      "title": "Green Chili Pepper",
+      "description": "Spicy green chili pepper, ideal for adding heat to your favorite recipes.",
+      "brand": "",
+      "price_cents": 99,
+      "stock": 3,
+      "collection": "pantry",
+      "kind": "vegetable",
+      "tags": [
+        "vegetables"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/groceries/green-chili-pepper/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/groceries/green-chili-pepper/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 27,
+      "slug": "honey-jar",
+      "title": "Honey Jar",
+      "description": "Pure and natural honey in a convenient jar, perfect for sweetening beverages or drizzling over food.",
+      "brand": "",
+      "price_cents": 699,
+      "stock": 34,
+      "collection": "pantry",
+      "kind": "honey",
+      "tags": [
+        "condiments"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/groceries/honey-jar/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/groceries/honey-jar/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 28,
+      "slug": "ice-cream",
+      "title": "Ice Cream",
+      "description": "Creamy and delicious ice cream, available in various flavors for a delightful treat.",
+      "brand": "",
+      "price_cents": 549,
+      "stock": 27,
+      "collection": "pantry",
+      "kind": "ice-cream",
+      "tags": [
+        "desserts"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/groceries/ice-cream/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/groceries/ice-cream/1.webp",
+        "https://cdn.dummyjson.com/product-images/groceries/ice-cream/2.webp",
+        "https://cdn.dummyjson.com/product-images/groceries/ice-cream/3.webp",
+        "https://cdn.dummyjson.com/product-images/groceries/ice-cream/4.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 29,
+      "slug": "juice",
+      "title": "Juice",
+      "description": "Refreshing fruit juice, packed with vitamins and great for staying hydrated.",
+      "brand": "",
+      "price_cents": 399,
+      "stock": 50,
+      "collection": "pantry",
+      "kind": "juice",
+      "tags": [
+        "beverages"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/groceries/juice/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/groceries/juice/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 30,
+      "slug": "kiwi",
+      "title": "Kiwi",
+      "description": "Nutrient-rich kiwi, perfect for snacking or adding a tropical twist to your dishes.",
+      "brand": "",
+      "price_cents": 249,
+      "stock": 99,
+      "collection": "pantry",
+      "kind": "fruit",
+      "tags": [
+        "fruits"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/groceries/kiwi/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/groceries/kiwi/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 31,
+      "slug": "lemon",
+      "title": "Lemon",
+      "description": "Zesty and tangy lemons, versatile for cooking, baking, or making refreshing beverages.",
+      "brand": "",
+      "price_cents": 79,
+      "stock": 31,
+      "collection": "pantry",
+      "kind": "fruit",
+      "tags": [
+        "fruits"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/groceries/lemon/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/groceries/lemon/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 32,
+      "slug": "milk",
+      "title": "Milk",
+      "description": "Fresh and nutritious milk, a staple for various recipes and daily consumption.",
+      "brand": "",
+      "price_cents": 349,
+      "stock": 27,
+      "collection": "pantry",
+      "kind": "milk",
+      "tags": [
+        "dairy"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/groceries/milk/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/groceries/milk/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 33,
+      "slug": "mulberry",
+      "title": "Mulberry",
+      "description": "Sweet and juicy mulberries, perfect for snacking or adding to desserts and cereals.",
+      "brand": "",
+      "price_cents": 499,
+      "stock": 99,
+      "collection": "pantry",
+      "kind": "fruit",
+      "tags": [
+        "fruits"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/groceries/mulberry/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/groceries/mulberry/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 34,
+      "slug": "nescafe-coffee",
+      "title": "Nescafe Coffee",
+      "description": "Quality coffee from Nescafe, available in various blends for a rich and satisfying cup.",
+      "brand": "",
+      "price_cents": 799,
+      "stock": 57,
+      "collection": "pantry",
+      "kind": "coffee",
+      "tags": [
+        "beverages",
+        "coffee"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/groceries/nescafe-coffee/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/groceries/nescafe-coffee/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 8
+    },
+    {
+      "id": 35,
+      "slug": "potatoes",
+      "title": "Potatoes",
+      "description": "Versatile and starchy potatoes, great for roasting, mashing, or as a side dish.",
+      "brand": "",
+      "price_cents": 229,
+      "stock": 13,
+      "collection": "pantry",
+      "kind": "vegetable",
+      "tags": [
+        "vegetables"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/groceries/potatoes/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/groceries/potatoes/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 36,
+      "slug": "protein-powder",
+      "title": "Protein Powder",
+      "description": "Nutrient-packed protein powder, ideal for supplementing your diet with essential proteins.",
+      "brand": "",
+      "price_cents": 1999,
+      "stock": 80,
+      "collection": "pantry",
+      "kind": "protein-powder",
+      "tags": [
+        "health supplements"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/groceries/protein-powder/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/groceries/protein-powder/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 37,
+      "slug": "red-onions",
+      "title": "Red Onions",
+      "description": "Flavorful and aromatic red onions, perfect for adding depth to your savory dishes.",
+      "brand": "",
+      "price_cents": 199,
+      "stock": 82,
+      "collection": "pantry",
+      "kind": "vegetable",
+      "tags": [
+        "vegetables"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/groceries/red-onions/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/groceries/red-onions/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 38,
+      "slug": "rice",
+      "title": "Rice",
+      "description": "High-quality rice, a staple for various cuisines and a versatile base for many dishes.",
+      "brand": "",
+      "price_cents": 599,
+      "stock": 59,
+      "collection": "pantry",
+      "kind": "rice",
+      "tags": [
+        "grains"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/groceries/rice/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/groceries/rice/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 39,
+      "slug": "soft-drinks",
+      "title": "Soft Drinks",
+      "description": "Assorted soft drinks in various flavors, perfect for refreshing beverages.",
+      "brand": "",
+      "price_cents": 199,
+      "stock": 53,
+      "collection": "pantry",
+      "kind": "soft-drink",
+      "tags": [
+        "beverages"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/groceries/soft-drinks/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/groceries/soft-drinks/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 40,
+      "slug": "strawberry",
+      "title": "Strawberry",
+      "description": "Sweet and succulent strawberries, great for snacking, desserts, or blending into smoothies.",
+      "brand": "",
+      "price_cents": 399,
+      "stock": 46,
+      "collection": "pantry",
+      "kind": "fruit",
+      "tags": [
+        "fruits"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/groceries/strawberry/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/groceries/strawberry/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 42,
+      "slug": "water",
+      "title": "Water",
+      "description": "Pure and refreshing bottled water, essential for staying hydrated throughout the day.",
+      "brand": "",
+      "price_cents": 99,
+      "stock": 53,
+      "collection": "pantry",
+      "kind": "water",
+      "tags": [
+        "beverages"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/groceries/water/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/groceries/water/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 43,
+      "slug": "decoration-swing",
+      "title": "Decoration Swing",
+      "description": "The Decoration Swing is a charming addition to your home decor. Crafted with intricate details, it adds a touch of elegance and whimsy to any room.",
+      "brand": "",
+      "price_cents": 5999,
+      "stock": 47,
+      "collection": "home",
+      "kind": "swing",
+      "tags": [
+        "home decor",
+        "swing"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/home-decoration/decoration-swing/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/home-decoration/decoration-swing/1.webp",
+        "https://cdn.dummyjson.com/product-images/home-decoration/decoration-swing/2.webp",
+        "https://cdn.dummyjson.com/product-images/home-decoration/decoration-swing/3.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 44,
+      "slug": "family-tree-photo-frame",
+      "title": "Family Tree Photo Frame",
+      "description": "The Family Tree Photo Frame is a sentimental and stylish way to display your cherished family memories. With multiple photo slots, it tells the story of your loved ones.",
+      "brand": "",
+      "price_cents": 2999,
+      "stock": 77,
+      "collection": "home",
+      "kind": "photo-frame",
+      "tags": [
+        "home decor",
+        "photo frame"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/home-decoration/family-tree-photo-frame/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/home-decoration/family-tree-photo-frame/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 45,
+      "slug": "house-showpiece-plant",
+      "title": "House Showpiece Plant",
+      "description": "The House Showpiece Plant is an artificial plant that brings a touch of nature to your home without the need for maintenance. It adds greenery and style to any space.",
+      "brand": "",
+      "price_cents": 3999,
+      "stock": 28,
+      "collection": "home",
+      "kind": "artificial-plant",
+      "tags": [
+        "home decor",
+        "artificial plants"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/home-decoration/house-showpiece-plant/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/home-decoration/house-showpiece-plant/1.webp",
+        "https://cdn.dummyjson.com/product-images/home-decoration/house-showpiece-plant/2.webp",
+        "https://cdn.dummyjson.com/product-images/home-decoration/house-showpiece-plant/3.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 46,
+      "slug": "plant-pot",
+      "title": "Plant Pot",
+      "description": "The Plant Pot is a stylish container for your favorite plants. With a sleek design, it complements your indoor or outdoor garden, adding a modern touch to your plant display.",
+      "brand": "",
+      "price_cents": 1499,
+      "stock": 59,
+      "collection": "home",
+      "kind": "planter",
+      "tags": [
+        "home decor",
+        "plant accessories"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/home-decoration/plant-pot/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/home-decoration/plant-pot/1.webp",
+        "https://cdn.dummyjson.com/product-images/home-decoration/plant-pot/2.webp",
+        "https://cdn.dummyjson.com/product-images/home-decoration/plant-pot/3.webp",
+        "https://cdn.dummyjson.com/product-images/home-decoration/plant-pot/4.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
     },
     {
       "id": 47,
@@ -47,7 +1021,678 @@
       ],
       "device": "",
       "compatible_with": [],
-      "featured": 8
+      "featured": 12
+    },
+    {
+      "id": 48,
+      "slug": "bamboo-spatula",
+      "title": "Bamboo Spatula",
+      "description": "The Bamboo Spatula is a versatile kitchen tool made from eco-friendly bamboo. Ideal for flipping, stirring, and serving various dishes.",
+      "brand": "",
+      "price_cents": 799,
+      "stock": 37,
+      "collection": "kitchen",
+      "kind": "turner",
+      "tags": [
+        "kitchen tools",
+        "utensils"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/bamboo-spatula/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/bamboo-spatula/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 49,
+      "slug": "black-aluminium-cup",
+      "title": "Black Aluminium Cup",
+      "description": "The Black Aluminium Cup is a stylish and durable cup suitable for both hot and cold beverages. Its sleek black design adds a modern touch to your drinkware collection.",
+      "brand": "",
+      "price_cents": 599,
+      "stock": 75,
+      "collection": "kitchen",
+      "kind": "drinkware",
+      "tags": [
+        "drinkware",
+        "cups"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/black-aluminium-cup/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/black-aluminium-cup/1.webp",
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/black-aluminium-cup/2.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 50,
+      "slug": "black-whisk",
+      "title": "Black Whisk",
+      "description": "The Black Whisk is a kitchen essential for whisking and beating ingredients. Its ergonomic handle and sleek design make it a practical and stylish tool.",
+      "brand": "",
+      "price_cents": 999,
+      "stock": 73,
+      "collection": "kitchen",
+      "kind": "whisk",
+      "tags": [
+        "kitchen tools",
+        "utensils"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/black-whisk/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/black-whisk/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 51,
+      "slug": "boxed-blender",
+      "title": "Boxed Blender",
+      "description": "The Boxed Blender is a powerful and compact blender perfect for smoothies, shakes, and more. Its convenient design and multiple functions make it a versatile kitchen appliance.",
+      "brand": "",
+      "price_cents": 3999,
+      "stock": 9,
+      "collection": "kitchen",
+      "kind": "blender",
+      "tags": [
+        "kitchen appliances",
+        "blenders"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/boxed-blender/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/boxed-blender/1.webp",
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/boxed-blender/2.webp",
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/boxed-blender/3.webp",
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/boxed-blender/4.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 52,
+      "slug": "carbon-steel-wok",
+      "title": "Carbon Steel Wok",
+      "description": "The Carbon Steel Wok is a versatile cooking pan suitable for stir-frying, sautéing, and deep frying. Its sturdy construction ensures even heat distribution for delicious meals.",
+      "brand": "",
+      "price_cents": 2999,
+      "stock": 40,
+      "collection": "kitchen",
+      "kind": "pan",
+      "tags": [
+        "cookware",
+        "woks"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/carbon-steel-wok/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/carbon-steel-wok/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 1
+    },
+    {
+      "id": 53,
+      "slug": "chopping-board",
+      "title": "Chopping Board",
+      "description": "The Chopping Board is an essential kitchen accessory for food preparation. Made from durable material, it provides a safe and hygienic surface for cutting and chopping.",
+      "brand": "",
+      "price_cents": 1299,
+      "stock": 14,
+      "collection": "kitchen",
+      "kind": "cutting-board",
+      "tags": [
+        "kitchen tools",
+        "cutting boards"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/chopping-board/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/chopping-board/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 54,
+      "slug": "citrus-squeezer-yellow",
+      "title": "Citrus Squeezer Yellow",
+      "description": "The Citrus Squeezer in Yellow is a handy tool for extracting juice from citrus fruits. Its vibrant color adds a cheerful touch to your kitchen gadgets.",
+      "brand": "",
+      "price_cents": 899,
+      "stock": 22,
+      "collection": "kitchen",
+      "kind": "juicer",
+      "tags": [
+        "kitchen tools",
+        "juicers"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/citrus-squeezer-yellow/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/citrus-squeezer-yellow/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 55,
+      "slug": "egg-slicer",
+      "title": "Egg Slicer",
+      "description": "The Egg Slicer is a convenient tool for slicing boiled eggs evenly. It's perfect for salads, sandwiches, and other dishes where sliced eggs are desired.",
+      "brand": "",
+      "price_cents": 699,
+      "stock": 40,
+      "collection": "kitchen",
+      "kind": "slicer",
+      "tags": [
+        "kitchen tools",
+        "slicers"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/egg-slicer/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/egg-slicer/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 56,
+      "slug": "electric-stove",
+      "title": "Electric Stove",
+      "description": "The Electric Stove provides a portable and efficient cooking solution. Ideal for small kitchens or as an additional cooking surface for various culinary needs.",
+      "brand": "",
+      "price_cents": 4999,
+      "stock": 21,
+      "collection": "kitchen",
+      "kind": "stove",
+      "tags": [
+        "kitchen appliances",
+        "cooktops"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/electric-stove/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/electric-stove/1.webp",
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/electric-stove/2.webp",
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/electric-stove/3.webp",
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/electric-stove/4.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 57,
+      "slug": "fine-mesh-strainer",
+      "title": "Fine Mesh Strainer",
+      "description": "The Fine Mesh Strainer is a versatile tool for straining liquids and sifting dry ingredients. Its fine mesh ensures efficient filtering for smooth cooking and baking.",
+      "brand": "",
+      "price_cents": 999,
+      "stock": 85,
+      "collection": "kitchen",
+      "kind": "strainer",
+      "tags": [
+        "kitchen tools",
+        "strainers"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/fine-mesh-strainer/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/fine-mesh-strainer/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 58,
+      "slug": "fork",
+      "title": "Fork",
+      "description": "The Fork is a classic utensil for various dining and serving purposes. Its durable and ergonomic design makes it a reliable choice for everyday use.",
+      "brand": "",
+      "price_cents": 399,
+      "stock": 7,
+      "collection": "kitchen",
+      "kind": "flatware",
+      "tags": [
+        "kitchen tools",
+        "utensils"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/fork/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/fork/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 59,
+      "slug": "glass",
+      "title": "Glass",
+      "description": "The Glass is a versatile and elegant drinking vessel suitable for a variety of beverages. Its clear design allows you to enjoy the colors and textures of your drinks.",
+      "brand": "",
+      "price_cents": 499,
+      "stock": 46,
+      "collection": "kitchen",
+      "kind": "drinkware",
+      "tags": [
+        "drinkware",
+        "glasses"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/glass/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/glass/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 60,
+      "slug": "grater-black",
+      "title": "Grater Black",
+      "description": "The Grater in Black is a handy kitchen tool for grating cheese, vegetables, and more. Its sleek design and sharp blades make food preparation efficient and easy.",
+      "brand": "",
+      "price_cents": 1099,
+      "stock": 84,
+      "collection": "kitchen",
+      "kind": "grater",
+      "tags": [
+        "kitchen tools",
+        "graters"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/grater-black/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/grater-black/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 61,
+      "slug": "hand-blender",
+      "title": "Hand Blender",
+      "description": "The Hand Blender is a versatile kitchen appliance for blending, pureeing, and mixing. Its compact design and powerful motor make it a convenient tool for various recipes.",
+      "brand": "",
+      "price_cents": 3499,
+      "stock": 84,
+      "collection": "kitchen",
+      "kind": "blender",
+      "tags": [
+        "kitchen appliances",
+        "blenders"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/hand-blender/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/hand-blender/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 62,
+      "slug": "ice-cube-tray",
+      "title": "Ice Cube Tray",
+      "description": "The Ice Cube Tray is a practical accessory for making ice cubes in various shapes. Perfect for keeping your drinks cool and adding a fun element to your beverages.",
+      "brand": "",
+      "price_cents": 599,
+      "stock": 13,
+      "collection": "kitchen",
+      "kind": "ice-tray",
+      "tags": [
+        "kitchen tools",
+        "ice cube trays"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/ice-cube-tray/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/ice-cube-tray/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 63,
+      "slug": "kitchen-sieve",
+      "title": "Kitchen Sieve",
+      "description": "The Kitchen Sieve is a versatile tool for sifting and straining dry and wet ingredients. Its fine mesh design ensures smooth results in your cooking and baking.",
+      "brand": "",
+      "price_cents": 799,
+      "stock": 68,
+      "collection": "kitchen",
+      "kind": "strainer",
+      "tags": [
+        "kitchen tools",
+        "strainers"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/kitchen-sieve/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/kitchen-sieve/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 64,
+      "slug": "knife",
+      "title": "Knife",
+      "description": "The Knife is an essential kitchen tool for chopping, slicing, and dicing. Its sharp blade and ergonomic handle make it a reliable choice for food preparation.",
+      "brand": "",
+      "price_cents": 1499,
+      "stock": 7,
+      "collection": "kitchen",
+      "kind": "kitchen-knife",
+      "tags": [
+        "kitchen tools",
+        "cutlery"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/knife/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/knife/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 65,
+      "slug": "lunch-box",
+      "title": "Lunch Box",
+      "description": "The Lunch Box is a convenient and portable container for packing and carrying your meals. With compartments for different foods, it's perfect for on-the-go dining.",
+      "brand": "",
+      "price_cents": 1299,
+      "stock": 94,
+      "collection": "kitchen",
+      "kind": "food-storage",
+      "tags": [
+        "kitchen tools",
+        "storage"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/lunch-box/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/lunch-box/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 66,
+      "slug": "microwave-oven",
+      "title": "Microwave Oven",
+      "description": "The Microwave Oven is a versatile kitchen appliance for quick and efficient cooking, reheating, and defrosting. Its compact size makes it suitable for various kitchen setups.",
+      "brand": "",
+      "price_cents": 8999,
+      "stock": 59,
+      "collection": "kitchen",
+      "kind": "microwave",
+      "tags": [
+        "kitchen appliances",
+        "microwaves"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/microwave-oven/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/microwave-oven/1.webp",
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/microwave-oven/2.webp",
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/microwave-oven/3.webp",
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/microwave-oven/4.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 67,
+      "slug": "mug-tree-stand",
+      "title": "Mug Tree Stand",
+      "description": "The Mug Tree Stand is a stylish and space-saving solution for organizing your mugs. Keep your favorite mugs easily accessible and neatly displayed in your kitchen.",
+      "brand": "",
+      "price_cents": 1599,
+      "stock": 88,
+      "collection": "kitchen",
+      "kind": "organizer",
+      "tags": [
+        "kitchen tools",
+        "organization"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/mug-tree-stand/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/mug-tree-stand/1.webp",
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/mug-tree-stand/2.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 68,
+      "slug": "pan",
+      "title": "Pan",
+      "description": "The Pan is a versatile and essential cookware item for frying, sautéing, and cooking various dishes. Its non-stick coating ensures easy food release and cleanup.",
+      "brand": "",
+      "price_cents": 2499,
+      "stock": 90,
+      "collection": "kitchen",
+      "kind": "pan",
+      "tags": [
+        "cookware",
+        "pans"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/pan/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/pan/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 69,
+      "slug": "plate",
+      "title": "Plate",
+      "description": "The Plate is a classic and essential dishware item for serving meals. Its durable and stylish design makes it suitable for everyday use or special occasions.",
+      "brand": "",
+      "price_cents": 399,
+      "stock": 66,
+      "collection": "kitchen",
+      "kind": "plate",
+      "tags": [
+        "dinnerware",
+        "plates"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/plate/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/plate/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 70,
+      "slug": "red-tongs",
+      "title": "Red Tongs",
+      "description": "The Red Tongs are versatile kitchen tongs suitable for various cooking and serving tasks. Their vibrant color adds a pop of excitement to your kitchen utensils.",
+      "brand": "",
+      "price_cents": 699,
+      "stock": 82,
+      "collection": "kitchen",
+      "kind": "tongs",
+      "tags": [
+        "kitchen tools",
+        "tongs"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/red-tongs/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/red-tongs/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 71,
+      "slug": "silver-pot-with-glass-cap",
+      "title": "Silver Pot With Glass Cap",
+      "description": "The Silver Pot with Glass Cap is a stylish and functional cookware item for boiling, simmering, and preparing delicious meals. Its glass cap allows you to monitor cooking progress.",
+      "brand": "",
+      "price_cents": 3999,
+      "stock": 40,
+      "collection": "kitchen",
+      "kind": "cooking-pot",
+      "tags": [
+        "cookware",
+        "pots"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/silver-pot-with-glass-cap/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/silver-pot-with-glass-cap/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 72,
+      "slug": "slotted-turner",
+      "title": "Slotted Turner",
+      "description": "The Slotted Turner is a kitchen utensil designed for flipping and turning food items. Its slotted design allows excess liquid to drain, making it ideal for frying and sautéing.",
+      "brand": "",
+      "price_cents": 899,
+      "stock": 88,
+      "collection": "kitchen",
+      "kind": "turner",
+      "tags": [
+        "kitchen tools",
+        "turners"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/slotted-turner/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/slotted-turner/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 73,
+      "slug": "spice-rack",
+      "title": "Spice Rack",
+      "description": "The Spice Rack is a convenient organizer for your spices and seasonings. Keep your kitchen essentials within reach and neatly arranged with this stylish spice rack.",
+      "brand": "",
+      "price_cents": 1999,
+      "stock": 79,
+      "collection": "kitchen",
+      "kind": "organizer",
+      "tags": [
+        "kitchen tools",
+        "organization"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/spice-rack/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/spice-rack/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 74,
+      "slug": "spoon",
+      "title": "Spoon",
+      "description": "The Spoon is a versatile kitchen utensil for stirring, serving, and tasting. Its ergonomic design and durable construction make it an essential tool for every kitchen.",
+      "brand": "",
+      "price_cents": 499,
+      "stock": 59,
+      "collection": "kitchen",
+      "kind": "flatware",
+      "tags": [
+        "kitchen tools",
+        "utensils"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/spoon/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/spoon/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 75,
+      "slug": "tray",
+      "title": "Tray",
+      "description": "The Tray is a functional and decorative item for serving snacks, appetizers, or drinks. Its stylish design makes it a versatile accessory for entertaining guests.",
+      "brand": "",
+      "price_cents": 1699,
+      "stock": 71,
+      "collection": "kitchen",
+      "kind": "serving-tray",
+      "tags": [
+        "serveware",
+        "trays"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/tray/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/tray/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 76,
+      "slug": "wooden-rolling-pin",
+      "title": "Wooden Rolling Pin",
+      "description": "The Wooden Rolling Pin is a classic kitchen tool for rolling out dough for baking. Its smooth surface and sturdy handles make it easy to achieve uniform thickness.",
+      "brand": "",
+      "price_cents": 1199,
+      "stock": 80,
+      "collection": "kitchen",
+      "kind": "rolling-pin",
+      "tags": [
+        "kitchen tools",
+        "baking"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/wooden-rolling-pin/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/wooden-rolling-pin/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 77,
+      "slug": "yellow-peeler",
+      "title": "Yellow Peeler",
+      "description": "The Yellow Peeler is a handy tool for peeling fruits and vegetables with ease. Its bright yellow color adds a cheerful touch to your kitchen gadgets.",
+      "brand": "",
+      "price_cents": 599,
+      "stock": 35,
+      "collection": "kitchen",
+      "kind": "slicer",
+      "tags": [
+        "kitchen tools",
+        "peelers"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/yellow-peeler/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/yellow-peeler/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
     },
     {
       "id": 78,
@@ -71,7 +1716,7 @@
       ],
       "device": "",
       "compatible_with": [],
-      "featured": 1
+      "featured": 4
     },
     {
       "id": 79,
@@ -163,7 +1808,151 @@
       ],
       "device": "",
       "compatible_with": [],
-      "featured": 6
+      "featured": 999
+    },
+    {
+      "id": 93,
+      "slug": "brown-leather-belt-watch",
+      "title": "Brown Leather Belt Watch",
+      "description": "The Brown Leather Belt Watch is a stylish timepiece with a classic design. Featuring a genuine leather strap and a sleek dial, it adds a touch of sophistication to your look.",
+      "brand": "Fashion Timepieces",
+      "price_cents": 8999,
+      "stock": 32,
+      "collection": "style",
+      "kind": "analog-watch",
+      "tags": [
+        "watches",
+        "leather watches"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/mens-watches/brown-leather-belt-watch/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/mens-watches/brown-leather-belt-watch/1.webp",
+        "https://cdn.dummyjson.com/product-images/mens-watches/brown-leather-belt-watch/2.webp",
+        "https://cdn.dummyjson.com/product-images/mens-watches/brown-leather-belt-watch/3.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 94,
+      "slug": "longines-master-collection",
+      "title": "Longines Master Collection",
+      "description": "The Longines Master Collection is an elegant and refined watch known for its precision and craftsmanship. With a timeless design, it's a symbol of luxury and sophistication.",
+      "brand": "Longines",
+      "price_cents": 149999,
+      "stock": 100,
+      "collection": "style",
+      "kind": "analog-watch",
+      "tags": [
+        "watches",
+        "luxury watches"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/mens-watches/longines-master-collection/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/mens-watches/longines-master-collection/1.webp",
+        "https://cdn.dummyjson.com/product-images/mens-watches/longines-master-collection/2.webp",
+        "https://cdn.dummyjson.com/product-images/mens-watches/longines-master-collection/3.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 95,
+      "slug": "rolex-cellini-date-black-dial",
+      "title": "Rolex Cellini Date Black Dial",
+      "description": "The Rolex Cellini Date with Black Dial is a classic and prestigious watch. With a black dial and date complication, it exudes sophistication and is a symbol of Rolex's heritage.",
+      "brand": "Rolex",
+      "price_cents": 899999,
+      "stock": 40,
+      "collection": "style",
+      "kind": "analog-watch",
+      "tags": [
+        "watches",
+        "luxury watches"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-date-black-dial/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-date-black-dial/1.webp",
+        "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-date-black-dial/2.webp",
+        "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-date-black-dial/3.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 96,
+      "slug": "rolex-cellini-moonphase",
+      "title": "Rolex Cellini Moonphase",
+      "description": "The Rolex Cellini Moonphase is a masterpiece of horology, featuring a moon phase complication and exquisite design. It reflects Rolex's commitment to precision and elegance.",
+      "brand": "Rolex",
+      "price_cents": 1299999,
+      "stock": 36,
+      "collection": "style",
+      "kind": "analog-watch",
+      "tags": [
+        "watches",
+        "luxury watches"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-moonphase/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-moonphase/1.webp",
+        "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-moonphase/2.webp",
+        "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-moonphase/3.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 97,
+      "slug": "rolex-datejust",
+      "title": "Rolex Datejust",
+      "description": "The Rolex Datejust is an iconic and versatile timepiece with a date window. Known for its timeless design and reliability, it's a symbol of Rolex's watchmaking excellence.",
+      "brand": "Rolex",
+      "price_cents": 1099999,
+      "stock": 86,
+      "collection": "style",
+      "kind": "analog-watch",
+      "tags": [
+        "watches",
+        "luxury watches"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-datejust/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/mens-watches/rolex-datejust/1.webp",
+        "https://cdn.dummyjson.com/product-images/mens-watches/rolex-datejust/2.webp",
+        "https://cdn.dummyjson.com/product-images/mens-watches/rolex-datejust/3.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 98,
+      "slug": "rolex-submariner-watch",
+      "title": "Rolex Submariner Watch",
+      "description": "The Rolex Submariner is a legendary dive watch with a rich history. Known for its durability and water resistance, it's a symbol of adventure and exploration.",
+      "brand": "Rolex",
+      "price_cents": 1399999,
+      "stock": 55,
+      "collection": "style",
+      "kind": "analog-watch",
+      "tags": [
+        "watches",
+        "luxury watches"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-submariner-watch/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/mens-watches/rolex-submariner-watch/1.webp",
+        "https://cdn.dummyjson.com/product-images/mens-watches/rolex-submariner-watch/2.webp",
+        "https://cdn.dummyjson.com/product-images/mens-watches/rolex-submariner-watch/3.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 7
     },
     {
       "id": 99,
@@ -210,7 +1999,7 @@
       ],
       "device": "",
       "compatible_with": [],
-      "featured": 7
+      "featured": 999
     },
     {
       "id": 101,
@@ -232,7 +2021,7 @@
       ],
       "device": "",
       "compatible_with": [],
-      "featured": 3
+      "featured": 9
     },
     {
       "id": 103,
@@ -467,6 +2256,78 @@
       "featured": 999
     },
     {
+      "id": 118,
+      "slug": "attitude-super-leaves-hand-soap",
+      "title": "Attitude Super Leaves Hand Soap",
+      "description": "Attitude Super Leaves Hand Soap is a natural and nourishing hand soap enriched with the goodness of super leaves. It cleanses and moisturizes your hands, leaving them feeling fresh and soft.",
+      "brand": "Attitude",
+      "price_cents": 899,
+      "stock": 94,
+      "collection": "beauty",
+      "kind": "hand-soap",
+      "tags": [
+        "personal care",
+        "hand soap"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/skin-care/attitude-super-leaves-hand-soap/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/skin-care/attitude-super-leaves-hand-soap/1.webp",
+        "https://cdn.dummyjson.com/product-images/skin-care/attitude-super-leaves-hand-soap/2.webp",
+        "https://cdn.dummyjson.com/product-images/skin-care/attitude-super-leaves-hand-soap/3.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 119,
+      "slug": "olay-ultra-moisture-shea-butter-body-wash",
+      "title": "Olay Ultra Moisture Shea Butter Body Wash",
+      "description": "Olay Ultra Moisture Shea Butter Body Wash is a luxurious body wash that hydrates and nourishes your skin with the moisturizing power of shea butter. Enjoy a rich lather and silky-smooth skin.",
+      "brand": "Olay",
+      "price_cents": 1299,
+      "stock": 34,
+      "collection": "beauty",
+      "kind": "body-wash",
+      "tags": [
+        "personal care",
+        "body wash"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/skin-care/olay-ultra-moisture-shea-butter-body-wash/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/skin-care/olay-ultra-moisture-shea-butter-body-wash/1.webp",
+        "https://cdn.dummyjson.com/product-images/skin-care/olay-ultra-moisture-shea-butter-body-wash/2.webp",
+        "https://cdn.dummyjson.com/product-images/skin-care/olay-ultra-moisture-shea-butter-body-wash/3.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 3
+    },
+    {
+      "id": 120,
+      "slug": "vaseline-men-body-and-face-lotion",
+      "title": "Vaseline Men Body and Face Lotion",
+      "description": "Vaseline Men Body and Face Lotion is a specially formulated lotion designed to provide long-lasting moisture to men's skin. It absorbs quickly and helps keep the skin hydrated and healthy.",
+      "brand": "Vaseline",
+      "price_cents": 999,
+      "stock": 95,
+      "collection": "beauty",
+      "kind": "body-lotion",
+      "tags": [
+        "personal care",
+        "body lotion"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/skin-care/vaseline-men-body-and-face-lotion/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/skin-care/vaseline-men-body-and-face-lotion/1.webp",
+        "https://cdn.dummyjson.com/product-images/skin-care/vaseline-men-body-and-face-lotion/2.webp",
+        "https://cdn.dummyjson.com/product-images/skin-care/vaseline-men-body-and-face-lotion/3.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
       "id": 121,
       "slug": "iphone-5s",
       "title": "iPhone 5s",
@@ -536,7 +2397,7 @@
       ],
       "device": "iphone-13-pro",
       "compatible_with": [],
-      "featured": 2
+      "featured": 6
     },
     {
       "id": 124,
@@ -852,6 +2713,505 @@
       "featured": 999
     },
     {
+      "id": 137,
+      "slug": "american-football",
+      "title": "American Football",
+      "description": "The American Football is a classic ball used in American football games. It is designed for throwing and catching, making it an essential piece of equipment for the sport.",
+      "brand": "",
+      "price_cents": 1999,
+      "stock": 53,
+      "collection": "sports",
+      "kind": "american-football",
+      "tags": [
+        "sports equipment",
+        "american football"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/sports-accessories/american-football/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/sports-accessories/american-football/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 138,
+      "slug": "baseball-ball",
+      "title": "Baseball Ball",
+      "description": "The Baseball Ball is a standard baseball used in baseball games. It features a durable leather cover and is designed for pitching, hitting, and fielding in the game of baseball.",
+      "brand": "",
+      "price_cents": 899,
+      "stock": 100,
+      "collection": "sports",
+      "kind": "baseball",
+      "tags": [
+        "sports equipment",
+        "baseball"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/sports-accessories/baseball-ball/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/sports-accessories/baseball-ball/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 139,
+      "slug": "baseball-glove",
+      "title": "Baseball Glove",
+      "description": "The Baseball Glove is a protective glove worn by baseball players. It is designed to catch and field the baseball, providing players with comfort and control during the game.",
+      "brand": "",
+      "price_cents": 2499,
+      "stock": 22,
+      "collection": "sports",
+      "kind": "baseball-glove",
+      "tags": [
+        "sports equipment",
+        "baseball"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/sports-accessories/baseball-glove/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/sports-accessories/baseball-glove/1.webp",
+        "https://cdn.dummyjson.com/product-images/sports-accessories/baseball-glove/2.webp",
+        "https://cdn.dummyjson.com/product-images/sports-accessories/baseball-glove/3.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 140,
+      "slug": "basketball",
+      "title": "Basketball",
+      "description": "The Basketball is a standard ball used in basketball games. It is designed for dribbling, shooting, and passing in the game of basketball, suitable for both indoor and outdoor play.",
+      "brand": "",
+      "price_cents": 1499,
+      "stock": 75,
+      "collection": "sports",
+      "kind": "basketball",
+      "tags": [
+        "sports equipment",
+        "basketball"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/sports-accessories/basketball/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/sports-accessories/basketball/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 141,
+      "slug": "basketball-rim",
+      "title": "Basketball Rim",
+      "description": "The Basketball Rim is a sturdy hoop and net assembly mounted on a basketball backboard. It provides a target for shooting and scoring in the game of basketball.",
+      "brand": "",
+      "price_cents": 3999,
+      "stock": 43,
+      "collection": "sports",
+      "kind": "basketball-rim",
+      "tags": [
+        "sports equipment",
+        "basketball"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/sports-accessories/basketball-rim/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/sports-accessories/basketball-rim/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 142,
+      "slug": "cricket-ball",
+      "title": "Cricket Ball",
+      "description": "The Cricket Ball is a hard leather ball used in the sport of cricket. It is bowled and batted in the game, and its hardness and seam contribute to the dynamics of cricket play.",
+      "brand": "",
+      "price_cents": 1299,
+      "stock": 30,
+      "collection": "sports",
+      "kind": "cricket-ball",
+      "tags": [
+        "sports equipment",
+        "cricket"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/sports-accessories/cricket-ball/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/sports-accessories/cricket-ball/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 143,
+      "slug": "cricket-bat",
+      "title": "Cricket Bat",
+      "description": "The Cricket Bat is an essential piece of cricket equipment used by batsmen to hit the cricket ball. It is made of wood and comes in various sizes and designs.",
+      "brand": "",
+      "price_cents": 2999,
+      "stock": 98,
+      "collection": "sports",
+      "kind": "cricket-bat",
+      "tags": [
+        "sports equipment",
+        "cricket"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/sports-accessories/cricket-bat/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/sports-accessories/cricket-bat/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 144,
+      "slug": "cricket-helmet",
+      "title": "Cricket Helmet",
+      "description": "The Cricket Helmet is a protective headgear worn by cricket players, especially batsmen and wicketkeepers. It provides protection against fast bowling and bouncers.",
+      "brand": "",
+      "price_cents": 4499,
+      "stock": 10,
+      "collection": "sports",
+      "kind": "cricket-helmet",
+      "tags": [
+        "sports equipment",
+        "cricket"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/sports-accessories/cricket-helmet/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/sports-accessories/cricket-helmet/1.webp",
+        "https://cdn.dummyjson.com/product-images/sports-accessories/cricket-helmet/2.webp",
+        "https://cdn.dummyjson.com/product-images/sports-accessories/cricket-helmet/3.webp",
+        "https://cdn.dummyjson.com/product-images/sports-accessories/cricket-helmet/4.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 145,
+      "slug": "cricket-wicket",
+      "title": "Cricket Wicket",
+      "description": "The Cricket Wicket is a set of three stumps and two bails, forming a wicket used in the sport of cricket. Batsmen aim to protect the wicket while scoring runs.",
+      "brand": "",
+      "price_cents": 2999,
+      "stock": 25,
+      "collection": "sports",
+      "kind": "cricket-wicket",
+      "tags": [
+        "sports equipment",
+        "cricket"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/sports-accessories/cricket-wicket/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/sports-accessories/cricket-wicket/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 146,
+      "slug": "feather-shuttlecock",
+      "title": "Feather Shuttlecock",
+      "description": "The Feather Shuttlecock is used in the sport of badminton. It features natural feathers and is designed for high-speed play, providing stability and accuracy during matches.",
+      "brand": "",
+      "price_cents": 599,
+      "stock": 95,
+      "collection": "sports",
+      "kind": "shuttlecock",
+      "tags": [
+        "sports equipment",
+        "badminton"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/sports-accessories/feather-shuttlecock/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/sports-accessories/feather-shuttlecock/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 147,
+      "slug": "football",
+      "title": "Football",
+      "description": "The Football, also known as a soccer ball, is the standard ball used in the sport of football (soccer). It is designed for kicking and passing in the game.",
+      "brand": "",
+      "price_cents": 1799,
+      "stock": 96,
+      "collection": "sports",
+      "kind": "soccer-ball",
+      "tags": [
+        "sports equipment",
+        "football"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/sports-accessories/football/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/sports-accessories/football/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 148,
+      "slug": "golf-ball",
+      "title": "Golf Ball",
+      "description": "The Golf Ball is a small ball used in the sport of golf. It features dimples on its surface, providing aerodynamic lift and distance when struck by a golf club.",
+      "brand": "",
+      "price_cents": 999,
+      "stock": 84,
+      "collection": "sports",
+      "kind": "golf-ball",
+      "tags": [
+        "sports equipment",
+        "golf"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/sports-accessories/golf-ball/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/sports-accessories/golf-ball/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 149,
+      "slug": "iron-golf",
+      "title": "Iron Golf",
+      "description": "The Iron Golf is a type of golf club designed for various golf shots. It features a solid metal head and is used for approach shots, chipping, and other golfing techniques.",
+      "brand": "",
+      "price_cents": 4999,
+      "stock": 90,
+      "collection": "sports",
+      "kind": "golf-club",
+      "tags": [
+        "sports equipment",
+        "golf"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/sports-accessories/iron-golf/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/sports-accessories/iron-golf/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 150,
+      "slug": "metal-baseball-bat",
+      "title": "Metal Baseball Bat",
+      "description": "The Metal Baseball Bat is a durable and lightweight baseball bat made from metal alloys. It is commonly used in baseball games for hitting and batting practice.",
+      "brand": "",
+      "price_cents": 2999,
+      "stock": 16,
+      "collection": "sports",
+      "kind": "baseball-bat",
+      "tags": [
+        "sports equipment",
+        "baseball"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/sports-accessories/metal-baseball-bat/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/sports-accessories/metal-baseball-bat/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 151,
+      "slug": "tennis-ball",
+      "title": "Tennis Ball",
+      "description": "The Tennis Ball is a standard ball used in the sport of tennis. It is designed for bouncing and hitting with tennis rackets during matches or practice sessions.",
+      "brand": "",
+      "price_cents": 699,
+      "stock": 28,
+      "collection": "sports",
+      "kind": "tennis-ball",
+      "tags": [
+        "sports equipment",
+        "tennis"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/sports-accessories/tennis-ball/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/sports-accessories/tennis-ball/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 152,
+      "slug": "tennis-racket",
+      "title": "Tennis Racket",
+      "description": "The Tennis Racket is an essential piece of equipment used in the sport of tennis. It features a frame with strings and a grip, allowing players to hit the tennis ball.",
+      "brand": "",
+      "price_cents": 4999,
+      "stock": 6,
+      "collection": "sports",
+      "kind": "tennis-racket",
+      "tags": [
+        "sports equipment",
+        "tennis"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/sports-accessories/tennis-racket/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/sports-accessories/tennis-racket/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 2
+    },
+    {
+      "id": 153,
+      "slug": "volleyball",
+      "title": "Volleyball",
+      "description": "The Volleyball is a standard ball used in the sport of volleyball. It is designed for passing, setting, and spiking over the net during volleyball matches.",
+      "brand": "",
+      "price_cents": 1199,
+      "stock": 0,
+      "collection": "sports",
+      "kind": "volleyball",
+      "tags": [
+        "sports equipment",
+        "volleyball"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/sports-accessories/volleyball/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/sports-accessories/volleyball/1.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 154,
+      "slug": "black-sun-glasses",
+      "title": "Black Sun Glasses",
+      "description": "The Black Sun Glasses are a classic and stylish choice, featuring a sleek black frame and tinted lenses. They provide both UV protection and a fashionable look.",
+      "brand": "Fashion Shades",
+      "price_cents": 2999,
+      "stock": 60,
+      "collection": "style",
+      "kind": "eyewear",
+      "tags": [
+        "eyewear",
+        "sunglasses"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/sunglasses/black-sun-glasses/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/sunglasses/black-sun-glasses/1.webp",
+        "https://cdn.dummyjson.com/product-images/sunglasses/black-sun-glasses/2.webp",
+        "https://cdn.dummyjson.com/product-images/sunglasses/black-sun-glasses/3.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 155,
+      "slug": "classic-sun-glasses",
+      "title": "Classic Sun Glasses",
+      "description": "The Classic Sun Glasses offer a timeless design with a neutral frame and UV-protected lenses. These sunglasses are versatile and suitable for various occasions.",
+      "brand": "Fashion Shades",
+      "price_cents": 2499,
+      "stock": 1,
+      "collection": "style",
+      "kind": "eyewear",
+      "tags": [
+        "eyewear",
+        "sunglasses"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/sunglasses/classic-sun-glasses/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/sunglasses/classic-sun-glasses/1.webp",
+        "https://cdn.dummyjson.com/product-images/sunglasses/classic-sun-glasses/2.webp",
+        "https://cdn.dummyjson.com/product-images/sunglasses/classic-sun-glasses/3.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 156,
+      "slug": "green-and-black-glasses",
+      "title": "Green and Black Glasses",
+      "description": "The Green and Black Glasses feature a bold combination of green and black colors, adding a touch of vibrancy to your eyewear collection. They are both stylish and eye-catching.",
+      "brand": "Fashion Shades",
+      "price_cents": 3499,
+      "stock": 24,
+      "collection": "style",
+      "kind": "eyewear",
+      "tags": [
+        "eyewear",
+        "sunglasses"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/sunglasses/green-and-black-glasses/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/sunglasses/green-and-black-glasses/1.webp",
+        "https://cdn.dummyjson.com/product-images/sunglasses/green-and-black-glasses/2.webp",
+        "https://cdn.dummyjson.com/product-images/sunglasses/green-and-black-glasses/3.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 157,
+      "slug": "party-glasses",
+      "title": "Party Glasses",
+      "description": "The Party Glasses are designed to add flair to your party outfit. With unique shapes or colorful frames, they're perfect for adding a playful touch to your look during celebrations.",
+      "brand": "Fashion Fun",
+      "price_cents": 1999,
+      "stock": 86,
+      "collection": "style",
+      "kind": "eyewear",
+      "tags": [
+        "eyewear",
+        "party glasses"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/sunglasses/party-glasses/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/sunglasses/party-glasses/1.webp",
+        "https://cdn.dummyjson.com/product-images/sunglasses/party-glasses/2.webp",
+        "https://cdn.dummyjson.com/product-images/sunglasses/party-glasses/3.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 158,
+      "slug": "sunglasses",
+      "title": "Sunglasses",
+      "description": "The Sunglasses offer a classic and simple design with a focus on functionality. These sunglasses provide essential UV protection while maintaining a timeless look.",
+      "brand": "Fashion Shades",
+      "price_cents": 2299,
+      "stock": 27,
+      "collection": "style",
+      "kind": "eyewear",
+      "tags": [
+        "eyewear",
+        "sunglasses"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/sunglasses/sunglasses/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/sunglasses/sunglasses/1.webp",
+        "https://cdn.dummyjson.com/product-images/sunglasses/sunglasses/2.webp",
+        "https://cdn.dummyjson.com/product-images/sunglasses/sunglasses/3.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
       "id": 159,
       "slug": "ipad-mini-2021-starlight",
       "title": "iPad Mini 2021 Starlight",
@@ -899,7 +3259,7 @@
       ],
       "device": "",
       "compatible_with": [],
-      "featured": 5
+      "featured": 11
     },
     {
       "id": 161,
@@ -921,6 +3281,127 @@
         "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-white/2.webp",
         "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-white/3.webp",
         "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-white/4.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 190,
+      "slug": "iwc-ingenieur-automatic-steel",
+      "title": "IWC Ingenieur Automatic Steel",
+      "description": "The IWC Ingenieur Automatic Steel watch is a durable and sophisticated timepiece. With a stainless steel case and automatic movement, it combines precision and style for watch enthusiasts.",
+      "brand": "IWC",
+      "price_cents": 499999,
+      "stock": 90,
+      "collection": "style",
+      "kind": "analog-watch",
+      "tags": [
+        "watches",
+        "luxury watches"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/womens-watches/iwc-ingenieur-automatic-steel/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/womens-watches/iwc-ingenieur-automatic-steel/1.webp",
+        "https://cdn.dummyjson.com/product-images/womens-watches/iwc-ingenieur-automatic-steel/2.webp",
+        "https://cdn.dummyjson.com/product-images/womens-watches/iwc-ingenieur-automatic-steel/3.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 191,
+      "slug": "rolex-cellini-moonphase-191",
+      "title": "Rolex Cellini Moonphase",
+      "description": "The Rolex Cellini Moonphase watch is a masterpiece of horology. Featuring a moon phase complication, it showcases the craftsmanship and elegance that Rolex is renowned for.",
+      "brand": "Rolex",
+      "price_cents": 1599999,
+      "stock": 52,
+      "collection": "style",
+      "kind": "analog-watch",
+      "tags": [
+        "watches",
+        "luxury watches"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/womens-watches/rolex-cellini-moonphase/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/womens-watches/rolex-cellini-moonphase/1.webp",
+        "https://cdn.dummyjson.com/product-images/womens-watches/rolex-cellini-moonphase/2.webp",
+        "https://cdn.dummyjson.com/product-images/womens-watches/rolex-cellini-moonphase/3.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 192,
+      "slug": "rolex-datejust-women",
+      "title": "Rolex Datejust Women",
+      "description": "The Rolex Datejust Women's watch is an iconic timepiece designed for women. With a timeless design and a date complication, it offers both elegance and functionality.",
+      "brand": "Rolex",
+      "price_cents": 1099999,
+      "stock": 4,
+      "collection": "style",
+      "kind": "analog-watch",
+      "tags": [
+        "watches",
+        "luxury watches",
+        "women's watches"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/womens-watches/rolex-datejust-women/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/womens-watches/rolex-datejust-women/1.webp",
+        "https://cdn.dummyjson.com/product-images/womens-watches/rolex-datejust-women/2.webp",
+        "https://cdn.dummyjson.com/product-images/womens-watches/rolex-datejust-women/3.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 193,
+      "slug": "watch-gold-for-women",
+      "title": "Watch Gold for Women",
+      "description": "The Gold Women's Watch is a stunning accessory that combines luxury and style. Featuring a gold-plated case and a chic design, it adds a touch of glamour to any outfit.",
+      "brand": "Fashion Gold",
+      "price_cents": 79999,
+      "stock": 0,
+      "collection": "style",
+      "kind": "analog-watch",
+      "tags": [
+        "watches",
+        "women's watches"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/womens-watches/watch-gold-for-women/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/womens-watches/watch-gold-for-women/1.webp",
+        "https://cdn.dummyjson.com/product-images/womens-watches/watch-gold-for-women/2.webp",
+        "https://cdn.dummyjson.com/product-images/womens-watches/watch-gold-for-women/3.webp"
+      ],
+      "device": "",
+      "compatible_with": [],
+      "featured": 999
+    },
+    {
+      "id": 194,
+      "slug": "women-s-wrist-watch",
+      "title": "Women's Wrist Watch",
+      "description": "The Women's Wrist Watch is a versatile and fashionable timepiece for everyday wear. With a comfortable strap and a simple yet elegant design, it complements various styles.",
+      "brand": "Fashion Co.",
+      "price_cents": 12999,
+      "stock": 12,
+      "collection": "style",
+      "kind": "analog-watch",
+      "tags": [
+        "watches",
+        "women's watches"
+      ],
+      "image": "https://cdn.dummyjson.com/product-images/womens-watches/women's-wrist-watch/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/womens-watches/women's-wrist-watch/1.webp",
+        "https://cdn.dummyjson.com/product-images/womens-watches/women's-wrist-watch/2.webp",
+        "https://cdn.dummyjson.com/product-images/womens-watches/women's-wrist-watch/3.webp"
       ],
       "device": "",
       "compatible_with": [],

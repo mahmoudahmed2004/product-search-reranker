@@ -86,14 +86,6 @@ main { min-height: 62vh; }
 }
 .primary:hover:not(:disabled) { background: #9e3316; }
 .hero-copy .primary { margin-top: 23px; }
-.hero-product {
-  min-width: 0; display: grid; justify-items: center; text-decoration: none;
-  min-height: 100%; padding: 20px 28px 18px 10px; align-content: center;
-}
-.hero-product .photo { height: clamp(180px, 28vw, 350px); width: 100%; }
-.hero-product img { mix-blend-mode: multiply; transition: transform .24s ease; }
-.hero-product:hover img { transform: scale(1.025); }
-.hero-caption { font-size: .85rem; font-weight: 660; color: #264133; text-align: center; }
 .photo { position: relative; display: grid; place-items: center; overflow: hidden; }
 .photo img { position: absolute; inset: 0; display: block; width: 100%; height: 100%; object-fit: contain; padding: var(--photo-padding, 0); }
 .photo-fallback { color: var(--muted); text-align: center; font-size: .84rem; padding: 12px; }
@@ -174,8 +166,6 @@ main { min-height: 62vh; }
   .hero { grid-template-columns: 1fr; margin: 18px 0 29px; }
   .hero-copy { padding: 28px 24px 6px; }
   .hero-copy h1 { max-width: 14ch; font-size: clamp(2.35rem, 10vw, 3.5rem); }
-  .hero-product { padding: 5px 24px 16px; }
-  .hero-product .photo { height: 145px; }
   .product-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
   .product-detail { grid-template-columns: 1fr; gap: 20px; }
   .detail-copy { margin-bottom: 4px; }
@@ -184,3 +174,80 @@ main { min-height: 62vh; }
   .footer-line { padding-block: 16px; gap: 9px; }
 }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; } }
+[hidden] { display: none !important; }
+
+.collections { gap: 17px; }
+.collections a { font-size: .85rem; }
+
+.aisle-display {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+  padding: 24px;
+}
+.aisle {
+  min-width: 0;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  align-items: end;
+  overflow: hidden;
+  text-decoration: none;
+  border: 1px solid #cadbca;
+  border-radius: 9px;
+  background: #edf3e8;
+}
+.aisle:first-child { grid-row: span 2; background: #e5eddf; }
+.aisle:nth-child(2) { background: #edf0dd; }
+.aisle:nth-child(3) { background: #f3ede1; }
+.aisle:hover { border-color: #879d8d; }
+.aisle .photo { width: 100%; height: 110px; --photo-padding: 9px; }
+.aisle:first-child .photo { height: 240px; --photo-padding: 18px; }
+.aisle img { mix-blend-mode: multiply; }
+.aisle-label { padding: 7px 10px 9px; font-size: .85rem; font-weight: 680; }
+.catalog-more { display: flex; width: max-content; margin: 22px auto 0; }
+
+@media (max-width: 650px) {
+  .collections { gap: 17px; }
+  .aisle-display { grid-template-columns: repeat(3, minmax(0, 1fr)); grid-template-rows: 1fr; padding: 17px; gap: 7px; }
+  .aisle:first-child { grid-row: auto; }
+  .aisle .photo, .aisle:first-child .photo { height: 84px; --photo-padding: 5px; }
+  .aisle-label { font-size: .72rem; padding: 5px 5px 7px; }
+}
+
+.context-panel {
+  margin: 28px 0 20px;
+  padding: clamp(16px, 2.6vw, 33px);
+  background: var(--sage);
+  border: 1px solid #cbdaca;
+  border-radius: 13px;
+}
+.context-header {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 14px;
+  margin-bottom: 18px;
+}
+.context-header > div { min-width: 0; }
+.context-header h1 {
+  max-width: 26ch;
+  color: var(--ink);
+  font-size: clamp(2rem, 4vw, 3.75rem);
+  line-height: 1.06;
+  letter-spacing: -.055em;
+  overflow-wrap: anywhere;
+}
+.context-header .quiet { flex-shrink: 0; }
+.context-source { margin-top: 6px; color: var(--muted); font-size: .91rem; font-weight: 650; }
+.context-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+.context-grid .card-visual { aspect-ratio: 1.65; }
+.context-empty { color: var(--muted); font-size: .96rem; line-height: 1.45; }
+@media (max-width: 650px) {
+  .context-panel { margin-top: 17px; }
+  .context-header .quiet { min-height: 34px; padding: 6px 8px; font-size: .78rem; }
+  .context-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 9px; }
+}
+@media (max-width: 350px) {
+  .context-header { flex-wrap: wrap; }
+}

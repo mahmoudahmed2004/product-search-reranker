@@ -4,9 +4,13 @@ A shopping query can match a requested product, a compatible substitute, or an a
 
 It trains a CPU LightGBM LambdaRank model on [Amazon ESCI](https://github.com/amazon-science/esci-data), evaluates both rankers on the same held-out candidate lists, and serves the trained model through a web interface.
 
-## Assembly storefront · V2
+## Assembly storefront · V3
 
-![Assembly storefront catalog](docs/storefront-preview.png)
+The storefront has 149 products across 13 departments. The homepage follows the latest search, chooses a relevant department and reranks eligible suggestions with the trained ESCI model. The catalog and trained product-detail recommenders share the same Qdrant index. [V3 design and audit](docs/storefront-v3.md)
+
+![Assembly home recommendations after a tennis search](docs/storefront-v3-context.png)
+
+## Storefront setup
 
 Browse a sample store and open product pages for same-type alternatives and compatible add-ons. Store search combines text and vector retrieval, and the product recommendations use two supervised item-to-item rankers.
 
@@ -15,7 +19,7 @@ python -m pip install -e ".[store]"
 python -m product_reranker serve-store
 ```
 
-Open [the storefront](http://127.0.0.1:8000/store/). Dataset selection, model training, and storefront architecture are covered in the [V2 project notes](docs/storefront.md).
+Open [the storefront](http://127.0.0.1:8000/store/). The [V2 notes](docs/storefront.md) cover the original catalog experiment and item-to-item model training.
 
 ## Run the V1 demo
 

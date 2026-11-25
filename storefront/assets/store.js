@@ -1,3 +1,5 @@
+import { clearContext, latestContext, recordSearch, recordView } from "./home-state.js";
+
 const select = (id) => document.getElementById(id);
 const main = select("main");
 const dialog = select("bag");
@@ -6,6 +8,8 @@ const dollars = new Intl.NumberFormat("en-US", { style: "currency", currency: "U
 const labels = {
   computers: "Computers", phones: "Phones", tablets: "Tablets",
   audio: "Audio", accessories: "Accessories", workspace: "Workspace",
+  kitchen: "Kitchen & dining", sports: "Sports & outdoors", home: "Home & living",
+  beauty: "Beauty & care", style: "Style", pantry: "Pantry", pets: "Pets",
 };
 
 function element(tag, classes = "", text) {
@@ -67,21 +71,64 @@ async function api(path) {
   return response.json();
 }
 
-function hero(featured) {
+function hero(products) {
   const area = element("section", "hero");
   const copy = element("div", "hero-copy");
   copy.append(
-    element("h1", "", "Gear for your everyday setup."),
-    element("p", "", "Computers, mobile gear, and workspace essentials."),
-    link("Shop the catalog", "#catalog", "primary"),
+    element("h1", "", "Good finds for every day."),
+    element("p", "", "Find kitchen tools, sports gear, and essentials for home and work."),
+    link("Shop all departments", "#catalog", "primary"),
   );
-  const visual = link(undefined, productUrl(featured), "hero-product");
-  visual.append(
-    photo(featured.images[0] || featured.image, featured.title, false),
-    element("span", "hero-caption", "MacBook Pro 14-inch  →"),
-  );
-  area.append(copy, visual);
+  const displays = element("div", "aisle-display");
+  displays.append(...[52, 152, 119].map((id) => products.find((product) => product.id === id))
+    .filter(Boolean).map((product) => {
+      const tile = link(undefined, "/store/?collection=" + product.collection, "aisle");
+      tile.append(photo(product.image, "", false),
+        element("span", "aisle-label", labels[product.collection]));
+      return tile;
+    }));
+  area.append(copy, displays);
   return area;
+}
+
+async function readHomeContext() {
+  const context = latestContext();
+  if (!context) return null;
+  try {
+    const result = await api("/home-context?" + context);
+    return result.source === "none" ? null : result;
+  } catch {
+    return null;
+  }
+}
+
+function contextPanel(context, products) {
+  const panel = element("section", "context-panel");
+  const heading = element("div", "context-header");
+  const copy = element("div");
+  const source = context.source === "search" ? "From your latest search" : "Recently viewed";
+  const topic = labels[context.collection];
+  copy.append(element("h1", "", context.label), element("p", "context-source",
+    topic ? source + " · " + topic : source));
+  heading.append(copy);
+  const clear = button("Clear activity", "quiet");
+  clear.addEventListener("click", () => {
+    clearContext();
+    const replacement = hero(products);
+    replacement.id = "home-discovery";
+    panel.replaceWith(replacement);
+    select("announcer").textContent = "Shopping activity cleared.";
+  });
+  heading.append(clear);
+  panel.append(heading);
+  if (context.products.length) {
+    const grid = element("div", "context-grid");
+    grid.append(...context.products.map((product) => card(product)));
+    panel.append(grid);
+  } else {
+    panel.append(element("p", "context-empty", "No close recommendations. Browse the departments below."));
+  }
+  return panel;
 }
 
 async function browse() {
@@ -94,7 +141,12 @@ async function browse() {
     if (anchor.dataset.collection === collection) anchor.setAttribute("aria-current", "page");
   }
   const filters = new URLSearchParams({ q: query, collection, rank });
-  const { products, total } = await api("/catalog?" + filters);
+  const home = !query && !collection;
+  const [{ products, total }, context] = await Promise.all([
+    api("/catalog?" + filters),
+    home ? readHomeContext() : null,
+  ]);
+  if (query) recordSearch(query, collection);
   const results = element("section", "catalog");
   results.id = "catalog";
   const heading = element("div", "section-head");
@@ -129,15 +181,28 @@ async function browse() {
     controls.append(label);
     heading.append(controls);
     const grid = element("div", "product-grid");
+    const more = button("Show more products", "quiet catalog-more");
+    let visible = 16;
+    const order = () => sort.value === "default" ? products : [...products].sort(
+      (a, b) => (a.price_cents - b.price_cents) * (sort.value === "low" ? 1 : -1),
+    );
     const render = () => {
-      const order = sort.value === "default" ? products : [...products].sort(
-        (a, b) => (a.price_cents - b.price_cents) * (sort.value === "low" ? 1 : -1),
-      );
-      grid.replaceChildren(...order.map((product) => card(product)));
+      grid.replaceChildren(...order().slice(0, visible).map((product) => card(product)));
+      more.hidden = visible >= products.length;
     };
-    sort.addEventListener("change", render);
+    sort.addEventListener("change", () => {
+      visible = 16;
+      render();
+    });
+    more.addEventListener("click", () => {
+      const batch = order().slice(visible, visible + 16);
+      grid.append(...batch.map((product) => card(product)));
+      visible += batch.length;
+      more.hidden = visible >= products.length;
+      select("announcer").textContent = "Showing " + visible + " products.";
+    });
     render();
-    results.append(grid);
+    results.append(grid, more);
   } else {
     const empty = element("div", "empty");
     empty.append(element("h2", "", "No products found"),
@@ -145,8 +210,20 @@ async function browse() {
       link("View all products", "/store/", "quiet"));
     results.append(empty);
   }
-  const featured = products.find((product) => product.id === 78);
-  main.replaceChildren(...(!query && !collection && featured ? [hero(featured), results] : [results]));
+  if (home) {
+    const display = context ? contextPanel(context, products) : hero(products);
+    display.id = "home-discovery";
+    main.replaceChildren(display, results);
+    window.addEventListener("pageshow", async (event) => {
+      if (!event.persisted) return;
+      const fresh = await readHomeContext();
+      const next = fresh ? contextPanel(fresh, products) : hero(products);
+      next.id = "home-discovery";
+      select("home-discovery")?.replaceWith(next);
+    });
+  } else {
+    main.replaceChildren(results);
+  }
 }
 
 function gallery(product) {
@@ -198,6 +275,7 @@ function recommendationRail(title, subtitle, rows, empty) {
 
 async function showProduct(slug) {
   const { product, similar, complements } = await api("/products/" + encodeURIComponent(slug));
+  recordView(product.slug);
   document.title = product.title + " · Assembly";
   const trail = element("nav", "crumbs");
   trail.setAttribute("aria-label", "Breadcrumb");
