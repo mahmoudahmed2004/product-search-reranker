@@ -1,0 +1,720 @@
+{
+  "dataset": {
+    "name": "Amazon ESCI · US Task 1",
+    "revision": "7916cdf6ab75a462e77f20ab40428a10923998d5",
+    "mode": "full"
+  },
+  "splits": {
+    "train": {
+      "queries": 17723,
+      "pairs": 356016
+    },
+    "validation": {
+      "queries": 3160,
+      "pairs": 63485
+    },
+    "test": {
+      "queries": 8956,
+      "pairs": 181701
+    }
+  },
+  "overlap_dropped_train_queries": 5,
+  "gains": {
+    "I": 0,
+    "C": 1,
+    "S": 10,
+    "E": 100
+  },
+  "iterations": 71,
+  "runtime": {
+    "python": "3.11.9",
+    "lightgbm": "4.7.0",
+    "numpy": "2.4.6",
+    "pyarrow": "26.0.1"
+  },
+  "slices": {
+    "all": {
+      "queries": 8956,
+      "bm25": 0.6834019136861197,
+      "lambdarank": 0.7132145110632062,
+      "delta": 0.029812597377086525,
+      "improved": 4790,
+      "regressed": 3397,
+      "tied": 769
+    },
+    "short": {
+      "queries": 1712,
+      "bm25": 0.6851275063751502,
+      "lambdarank": 0.7206573386659171,
+      "delta": 0.035529832290766894,
+      "improved": 913,
+      "regressed": 585,
+      "tied": 214
+    },
+    "exact_title": {
+      "queries": 156,
+      "bm25": 0.7862637830098332,
+      "lambdarank": 0.8072131256319623,
+      "delta": 0.020949342622129108,
+      "improved": 69,
+      "regressed": 54,
+      "tied": 33
+    }
+  },
+  "bootstrap": {
+    "lower": 0.026926232684033782,
+    "upper": 0.032838712028767515,
+    "resamples": 2000
+  },
+  "cases": [
+    {
+      "query": "fitbit charge 3",
+      "query_id": "40834",
+      "candidate_count": 72,
+      "bm25": 0.022581528192792688,
+      "lambdarank": 0.9851190261495346,
+      "products": [
+        {
+          "product_id": "B07FTKYKWX",
+          "title": "Fitbit Charge 3 Accessory Band, Official Fitbit Product, Sport, Black, Small",
+          "label": "C",
+          "bm25_rank": 35,
+          "lambdarank_rank": 8
+        },
+        {
+          "product_id": "B07FTN21JL",
+          "title": "Fitbit Charge 3 Fitness Activity Tracker, Graphite/Black, One Size (S and L Bands Included)",
+          "label": "E",
+          "bm25_rank": 52,
+          "lambdarank_rank": 2
+        },
+        {
+          "product_id": "B07G18N2YY",
+          "title": "Fitbit Charge 3 Fitness Activity Tracker, Rose Gold/Blue Grey, one Size (no fitbit Warranty Support), 0.06 Pound",
+          "label": "E",
+          "bm25_rank": 49,
+          "lambdarank_rank": 1
+        },
+        {
+          "product_id": "B07G26PDJQ",
+          "title": "Fitbit Charge 3 Fitness Activity Tracker, Graphite/Black, one Size (no fitbit Warranty Support), 0.06 Pound",
+          "label": "E",
+          "bm25_rank": 48,
+          "lambdarank_rank": 5
+        },
+        {
+          "product_id": "B07GB2LMDF",
+          "title": "Fitbit Charge 3 Fitness Activity Tracker, Rose Gold/Berry, One Size (S & L Bands Included)",
+          "label": "E",
+          "bm25_rank": 53,
+          "lambdarank_rank": 3
+        },
+        {
+          "product_id": "B07J4WLC81",
+          "title": "Wepro Waterproof Bands Compatible with Fitbit Charge 4/Charge3/Charge 3 SE for Women Men, 3-Pack Replacement Wristbands for Fitbit Charge 3/Charge 4, Small, Black, Navy Blue, Gray",
+          "label": "C",
+          "bm25_rank": 2,
+          "lambdarank_rank": 49
+        },
+        {
+          "product_id": "B07MQF81H3",
+          "title": "GEAK for Fitbit Charge 4 Bands/Charge 3 Sport Bands/Charge 3 SE Classic Bands, Sport Waterproof Compatible with Fitbit Charge 3 Bands for Women Men,Small 15 Colors",
+          "label": "C",
+          "bm25_rank": 3,
+          "lambdarank_rank": 32
+        },
+        {
+          "product_id": "B07N7CQ77K",
+          "title": "TOMALL Metal Bands for Fitbit Charge 3 Stainless Steel Replacement Wristband for Women Men (Rose Gold)",
+          "label": "C",
+          "bm25_rank": 56,
+          "lambdarank_rank": 9
+        },
+        {
+          "product_id": "B07P5XHCHJ",
+          "title": "Fitbit Charge 3 Fitness Watch, for Her & Him Kit - Rose Gold/Blue Grey & Graphite/Black",
+          "label": "E",
+          "bm25_rank": 23,
+          "lambdarank_rank": 6
+        },
+        {
+          "product_id": "B07PQZNHDM",
+          "title": "Wepro Waterproof Bands Compatible with Fitbit Charge 4 / Charge 3 / Charge 3 SE for Women Men, 3-Pack Replacement Wristbands for Fitbit Charge 3 / Charge 4, Small, Pink Sand, Cream Yellow, Aqua",
+          "label": "C",
+          "bm25_rank": 1,
+          "lambdarank_rank": 53
+        },
+        {
+          "product_id": "B07PVDBN57",
+          "title": "Fitbit Charge 3 Fitness Activity Tracker, Graphite/Black, One Size (S & L Bands Included) (Renewed)",
+          "label": "E",
+          "bm25_rank": 54,
+          "lambdarank_rank": 4
+        },
+        {
+          "product_id": "B07QN22K3V",
+          "title": "Fitbit Charge 3 Fitness Activity Tracker, Rose Gold/Blue Grey, One Size (S & L Bands Included) (Renewed)",
+          "label": "E",
+          "bm25_rank": 57,
+          "lambdarank_rank": 7
+        },
+        {
+          "product_id": "B07Y5W2Q6N",
+          "title": "Joyozy Slim Bling Bands Compatible with Fitbit Charge 3/Fitbit Charge 3 SE Smartwatch,Rhinestone Dressy Bracelet Replacement for Wristbands Accessories Jewelry Strap Women Girl(Silver)",
+          "label": "C",
+          "bm25_rank": 9,
+          "lambdarank_rank": 30
+        },
+        {
+          "product_id": "B07Y5WMGGG",
+          "title": "Joyozy Slim Bling Bands Compatible with Fitbit Charge 3/Fitbit Charge 3 SE Smartwatch,Rhinestone Dressy Bracelet Replacement for Wristbands Accessories Jewelry Strap Women Girl(Rosegold)",
+          "label": "C",
+          "bm25_rank": 10,
+          "lambdarank_rank": 31
+        },
+        {
+          "product_id": "B0875WL68Q",
+          "title": "Meliya Metal Loop Bands Compatible with Fitbit Charge 4 / Fitbit Charge 3 / Charge 3 SE Bands, Stainless Steel Megnet Lock Replacement Wristbands for Women Men, Without Tracker (Small, Rose Gold)",
+          "label": "C",
+          "bm25_rank": 6,
+          "lambdarank_rank": 51
+        },
+        {
+          "product_id": "B087F4BCBB",
+          "title": "Pack 3 Silicone Bands for Fitbit Charge 4 / Fitbit Charge 3 / Charge 3 SE Breathable Replacement Wristbands for Women Men Small Large(Without Tracker) (Large, Black+White+Wine Red)",
+          "label": "C",
+          "bm25_rank": 8,
+          "lambdarank_rank": 35
+        },
+        {
+          "product_id": "B087G4KTQ7",
+          "title": "[2 Pack] Woven Fabric Bands Compatible with Fitbit Charge 4, Fitbit Charge 3 / Charge 3 SE for Women Men, Dark Green & Grey",
+          "label": "C",
+          "bm25_rank": 5,
+          "lambdarank_rank": 43
+        },
+        {
+          "product_id": "B087X7DFCB",
+          "title": "Getino 3 Pack Bands Compatible with Fitbit Charge 4 Bands/Fitbit Charge 3 Bands/Charge 3 SE, Soft, Flexible and Waterproof TPU Sport Replacement Strap Wristbands for Women Men Small Rose/Teal/Plum",
+          "label": "C",
+          "bm25_rank": 7,
+          "lambdarank_rank": 46
+        },
+        {
+          "product_id": "B088K7DCRZ",
+          "title": "3 Pack Bands Compatible with Fitbit Charge 2, Classic & Special Edition Replacement Bands for Fitbit Charge 2, Women Men",
+          "label": "S",
+          "bm25_rank": 4,
+          "lambdarank_rank": 10
+        }
+      ]
+    },
+    {
+      "query": "apple watch band with case",
+      "query_id": "9854",
+      "candidate_count": 12,
+      "bm25": 1.0,
+      "lambdarank": 0.21550225459223096,
+      "products": [
+        {
+          "product_id": "B07GB5Z7JN",
+          "title": "WFEAGL Compatible iWatch Band 41mm 40mm 38mm, Top Grain Leather Band with Gold Adapter(Same as Series 6/5/4/3 with Gold Aluminum Case in Color) for iWatch SE & Series 7/6/5/4/3/2/1(Pink Sand+Rosegold)",
+          "label": "C",
+          "bm25_rank": 10,
+          "lambdarank_rank": 12
+        },
+        {
+          "product_id": "B07HC7J78P",
+          "title": "SUPCASE [Unicorn Beetle Pro] Designed for Apple Watch Series 7/6/SE/5/4 [41/40mm], Rugged Protective Case with Strap Bands (Black)",
+          "label": "C",
+          "bm25_rank": 12,
+          "lambdarank_rank": 4
+        },
+        {
+          "product_id": "B07HSSDV4S",
+          "title": "Spigen Rugged Armor Pro Compatible with Apple Watch Band with Case for Series 7 (45mm) and Series 6/SE/5/4 (44mm) - Black",
+          "label": "C",
+          "bm25_rank": 9,
+          "lambdarank_rank": 2
+        },
+        {
+          "product_id": "B07HT5TYLR",
+          "title": "Spigen Rugged Armor Protector Compatible with Apple Watch Case Series 7/6/SE/5/4 (41mm/40mm) - Rose Gold",
+          "label": "C",
+          "bm25_rank": 11,
+          "lambdarank_rank": 6
+        },
+        {
+          "product_id": "B07RRHDTHQ",
+          "title": "YC YANCH Band Compatible with Apple Watch 38mm with Case, Stainless Steel Mesh Loop Band with Apple Watch Screen Protector Compatible with iWatch Series 1/2/3/4/5/6/SE (38mm Silver)",
+          "label": "C",
+          "bm25_rank": 7,
+          "lambdarank_rank": 1
+        },
+        {
+          "product_id": "B07ST5GGKV",
+          "title": "MARGE PLUS Compatible Apple Watch Band 38mm 40mm Women, Slim Genuine Leather Watch Strap Replacement for iWatch SE Series 6 5 4 3 2 1, (Pink Band paired with Rose Pink Adapter)",
+          "label": "E",
+          "bm25_rank": 1,
+          "lambdarank_rank": 8
+        },
+        {
+          "product_id": "B07T9HDPJN",
+          "title": "MARGE PLUS Compatible with Apple Watch Band 40mm 38mm 44mm 42mm, Women Bling Wristband for iWatch SE Series 6 5 4 3 2 1 Metal Stylish Strap",
+          "label": "C",
+          "bm25_rank": 5,
+          "lambdarank_rank": 7
+        },
+        {
+          "product_id": "B07TC5T515",
+          "title": "EPULY Compatible with Apple Watch Band 45mm 44mm 42mm 41mm 40mm 38mm, Business Stainless Steel Metal Watchband for iWatch Strap SE Series 7 6 5 4 3 2 1 Men (Black, 45mm 44mm 42mm)",
+          "label": "C",
+          "bm25_rank": 8,
+          "lambdarank_rank": 10
+        },
+        {
+          "product_id": "B07VQDKWRT",
+          "title": "LELONG for Apple Watch Band 41mm 38mm 40mm Series 7 Series 6 5 4 3 2 1 SE, Bling Replacement Bracelet iWatch Band, Diamond Rhinestone Stainless Steel Metal Wristband Strap",
+          "label": "C",
+          "bm25_rank": 3,
+          "lambdarank_rank": 9
+        },
+        {
+          "product_id": "B07WXRZQXS",
+          "title": "Huishang Compatible for Apple Watch Bands 38mm 40mm 42mm 44mm Women Men with Screen Protector Case,Soft Silicone Sport Replacement Wristband for iWatch Series SE 6 5 4 3 2 1",
+          "label": "C",
+          "bm25_rank": 4,
+          "lambdarank_rank": 5
+        },
+        {
+          "product_id": "B07XRK3LMN",
+          "title": "MARGE PLUS Compatible Apple Watch Band 44mm 42mm, Sweatproof Hybrid Genuine Leather and Silicone Sports Watch Band Replacement for iWatch SE Series 6 5 4 3 2 1, Brown",
+          "label": "E",
+          "bm25_rank": 2,
+          "lambdarank_rank": 11
+        },
+        {
+          "product_id": "B07Z8Q3X7F",
+          "title": "Secbolt Bling Case Compatible with Apple Watch 44mm, Full Cover Bumper Screen Protector for iWatch SE Series 6 Series 5 Series 4 (Silver-44mm)",
+          "label": "C",
+          "bm25_rank": 6,
+          "lambdarank_rank": 3
+        }
+      ]
+    },
+    {
+      "query": "grilliacs",
+      "query_id": "47574",
+      "candidate_count": 16,
+      "bm25": 0.026980886606500536,
+      "lambdarank": 0.9596742499166714,
+      "products": [
+        {
+          "product_id": "0399580433",
+          "title": "Women in Art: 50 Fearless Creatives Who Inspired the World (Women in Science)",
+          "label": "I",
+          "bm25_rank": 1,
+          "lambdarank_rank": 9
+        },
+        {
+          "product_id": "0801015804",
+          "title": "Quick Scripture Reference for Counseling Women",
+          "label": "I",
+          "bm25_rank": 2,
+          "lambdarank_rank": 5
+        },
+        {
+          "product_id": "1945796413",
+          "title": "This Is For The Women Who Don't Give A Fuck",
+          "label": "I",
+          "bm25_rank": 3,
+          "lambdarank_rank": 10
+        },
+        {
+          "product_id": "B009QX7TTC",
+          "title": "Panasonic ER1511 Professional Cordless Hair Clipper",
+          "label": "I",
+          "bm25_rank": 4,
+          "lambdarank_rank": 6
+        },
+        {
+          "product_id": "B00MFQAXSQ",
+          "title": "Port Authority Easy Care Full-Length Apron with Stain Release OSFA Red",
+          "label": "S",
+          "bm25_rank": 5,
+          "lambdarank_rank": 11
+        },
+        {
+          "product_id": "B00OQL0SHE",
+          "title": "High Time Bump Stopper-2 0.5 Ounce Double Strength Treatment (14ml) (6 Pack)",
+          "label": "I",
+          "bm25_rank": 6,
+          "lambdarank_rank": 12
+        },
+        {
+          "product_id": "B00V5C71PO",
+          "title": "Funny Guy Mugs Grill Master Adjustable Apron with Pockets - Funny Apron for Men and Women - Perfect for BBQ Grilling Barbecue Cooking Baking",
+          "label": "S",
+          "bm25_rank": 7,
+          "lambdarank_rank": 15
+        },
+        {
+          "product_id": "B01N0ZZ2N3",
+          "title": "Micro Touch Triple-Blade Razor with 6 Refill Cartridges",
+          "label": "I",
+          "bm25_rank": 8,
+          "lambdarank_rank": 7
+        },
+        {
+          "product_id": "B01NBHK1S3",
+          "title": "Biome",
+          "label": "I",
+          "bm25_rank": 9,
+          "lambdarank_rank": 8
+        },
+        {
+          "product_id": "B071LPWKXN",
+          "title": "PHILIPS norelco all-in-one turbo-powered multigroom beard nose ear trimmer & shaver with 13 attachments",
+          "label": "I",
+          "bm25_rank": 10,
+          "lambdarank_rank": 14
+        },
+        {
+          "product_id": "B079WQG7LG",
+          "title": "BBQ Aprons for Men with Pockets, Grill Master Apron for Men, Grilling Aprons, Barbeque Aprons, Fathers Day, Valentines Day, Birthday Gifts for Dad, Funny Chef Aprons for Men",
+          "label": "E",
+          "bm25_rank": 11,
+          "lambdarank_rank": 3
+        },
+        {
+          "product_id": "B07J4XPZDZ",
+          "title": "Kitchen Apron for Women - Funny Aprons for Women with 2 Pockets, Mothers Day, Mom Birthday Gifts for Mom, Daughter, Girlfriend, Friends, Adjustable Kitchen Cooking Apron",
+          "label": "E",
+          "bm25_rank": 13,
+          "lambdarank_rank": 4
+        },
+        {
+          "product_id": "B08BMH48WR",
+          "title": "Funny Aprons for Men, Aprons for Men with Pockets, Kitchen Cooking BBQ Grilling Aprons for Men and women Fathers Day, Birthday Gifts for Dad, Husband, Son, Boyfriend, Hubby",
+          "label": "E",
+          "bm25_rank": 15,
+          "lambdarank_rank": 1
+        },
+        {
+          "product_id": "B08BMLK7D3",
+          "title": "What Should I Make for Dinner - Funny Aprons for Men, Women with 2 Pockets, Fathers Day, Dad Birthday Gifts for Men, Mom, Husband, Son, Boyfriend, Friends, Kitchen Cooking Grilling BBQ Apron",
+          "label": "E",
+          "bm25_rank": 16,
+          "lambdarank_rank": 2
+        }
+      ]
+    },
+    {
+      "query": "godless",
+      "query_id": "46268",
+      "candidate_count": 16,
+      "bm25": 0.43400138541163497,
+      "lambdarank": 0.7532831509624124,
+      "products": [
+        {
+          "product_id": "B003AYU25G",
+          "title": "Pilot",
+          "label": "I",
+          "bm25_rank": 1,
+          "lambdarank_rank": 3
+        },
+        {
+          "product_id": "B003BFRH0M",
+          "title": "Tell Your God to Ready for Blood",
+          "label": "I",
+          "bm25_rank": 2,
+          "lambdarank_rank": 4
+        },
+        {
+          "product_id": "B003BFVQI6",
+          "title": "Deadwood",
+          "label": "I",
+          "bm25_rank": 3,
+          "lambdarank_rank": 5
+        },
+        {
+          "product_id": "B003BFWUMC",
+          "title": "Boy the Earth Talks To",
+          "label": "I",
+          "bm25_rank": 4,
+          "lambdarank_rank": 6
+        },
+        {
+          "product_id": "B00E8BAHTQ",
+          "title": "Khyber",
+          "label": "I",
+          "bm25_rank": 5,
+          "lambdarank_rank": 7
+        },
+        {
+          "product_id": "B01DLGY3EI",
+          "title": "Godless",
+          "label": "E",
+          "bm25_rank": 6,
+          "lambdarank_rank": 1
+        },
+        {
+          "product_id": "B01E69V7UC",
+          "title": "Godless",
+          "label": "E",
+          "bm25_rank": 7,
+          "lambdarank_rank": 2
+        },
+        {
+          "product_id": "B01LXQTX8F",
+          "title": "Of Mice and Men",
+          "label": "I",
+          "bm25_rank": 8,
+          "lambdarank_rank": 8
+        },
+        {
+          "product_id": "B01MQJ1R9M",
+          "title": "Spectre",
+          "label": "E",
+          "bm25_rank": 9,
+          "lambdarank_rank": 9
+        },
+        {
+          "product_id": "B01N8ZQ7BN",
+          "title": "Hardcore Never Dies",
+          "label": "E",
+          "bm25_rank": 10,
+          "lambdarank_rank": 10
+        }
+      ]
+    },
+    {
+      "query": "moto g7 play",
+      "query_id": "70870",
+      "candidate_count": 16,
+      "bm25": 0.02736991524885581,
+      "lambdarank": 0.8805759217511043,
+      "products": [
+        {
+          "product_id": "B07N1GHDPW",
+          "title": "Moto G7 Play Case, Moto G7 Play Phone Case, HNHYGETE Soft Slim Shockproof Anti-Fingerprint Full Protective Phone Cases for Motorola Moto G7 Play (Blue)",
+          "label": "C",
+          "bm25_rank": 1,
+          "lambdarank_rank": 2
+        },
+        {
+          "product_id": "B07N2F5NCM",
+          "title": "[3-PACK]- Mr.Shield Designed For Motorola (MOTO G7 Play) [Tempered Glass] Screen Protector [Japan Glass With 9H Hardness] with Lifetime Replacement",
+          "label": "C",
+          "bm25_rank": 10,
+          "lambdarank_rank": 16
+        },
+        {
+          "product_id": "B07N91914Z",
+          "title": "Moto G7 Play with Alexa Push-to-Talk – Unlocked – 32 GB – Deep Indigo (US Warranty) – Verizon, AT&T, T–Mobile, Sprint, Boost, Cricket, & Metro",
+          "label": "E",
+          "bm25_rank": 16,
+          "lambdarank_rank": 4
+        },
+        {
+          "product_id": "B07N9MF1Q3",
+          "title": "Moto G7 play | Unlocked | Made for US by Motorola | 2/32GB | 13MP Camera | Blue",
+          "label": "E",
+          "bm25_rank": 14,
+          "lambdarank_rank": 1
+        },
+        {
+          "product_id": "B07NSSF8ML",
+          "title": "LK 3 Pack Screen Protector Compatible with Motorola Moto G7 Play Tempered Glass, 9H Hardness, Case Friendly",
+          "label": "C",
+          "bm25_rank": 8,
+          "lambdarank_rank": 5
+        },
+        {
+          "product_id": "B07NWCLD3G",
+          "title": "Ailun Screen Protector Compatible with Moto G7 Play 3Pack 9H Hardness Tempered Glass Screen Protector for Motorola Moto G7 Play Bubble Free Anti Scratch Fingerprint Oil Stain Coating Case Friendly",
+          "label": "C",
+          "bm25_rank": 11,
+          "lambdarank_rank": 6
+        },
+        {
+          "product_id": "B07NXXKTR2",
+          "title": "(3 Pack) Supershieldz Designed for Motorola Moto G7 play/Moto G7 Optimo/T- Mobile REVVELRY Tempered Glass Screen Protector, 0.33mm, Anti Scratch, Bubble Free",
+          "label": "C",
+          "bm25_rank": 12,
+          "lambdarank_rank": 7
+        },
+        {
+          "product_id": "B07P58QTFX",
+          "title": "Moto G7 Play Rugged Clear Case, Moto G7 Optimo Case, Poetic Full Body Hybrid Shockproof Bumper Cover, Built-in Screen Protector, Guardian Series, DO NOT FIT Moto G7 Or Moto G7 Power, Black/Clear",
+          "label": "C",
+          "bm25_rank": 2,
+          "lambdarank_rank": 9
+        },
+        {
+          "product_id": "B07P652H9K",
+          "title": "Motorola Moto G7 Play Case 2019 w/Screen Protector,Motorola Moto G7 Optimo TPU Phone Case Skin 5.7 inch,Carbon Fiber Brushed Soft Slim Rubber Bumper Protective Case Cover-Black",
+          "label": "C",
+          "bm25_rank": 6,
+          "lambdarank_rank": 14
+        },
+        {
+          "product_id": "B07P661J1J",
+          "title": "Motorola Moto G7 Play Case 2019 w/Screen Protector,Motorola Moto G7 Optimo Phone Case 5.7 inch,Kickstand Shockproof Heavy Duty Non Slip Bumper Rugged Protective Cover for Moto G(7th Gen) Play-Blue",
+          "label": "C",
+          "bm25_rank": 4,
+          "lambdarank_rank": 12
+        },
+        {
+          "product_id": "B07PJWDN1F",
+          "title": "Moto G7 Play Case with [9H Tempered Glass Screen Protector], Sunnyw Flexible Soft Ultra-Thin Light TPU Rubber Shock Absorption Non-Slip Rugged Durable Armor Snugly Fit Case for Moto G7 Play (Black)",
+          "label": "C",
+          "bm25_rank": 9,
+          "lambdarank_rank": 11
+        },
+        {
+          "product_id": "B07QXNJGY4",
+          "title": "OTTERBOX Commuter LITE Series Case for Moto G7 Play - Retail Packaging - Ocean Way (Aqua SAIL/Aquifer)",
+          "label": "C",
+          "bm25_rank": 15,
+          "lambdarank_rank": 3
+        },
+        {
+          "product_id": "B07QY44YVX",
+          "title": "Zase Moto G7 Play Clear Case, [Liquid Glitter Sparkle Bling] for Moto G7 Play (5.7\") Protective Cover 3D Waterfall Floating Butterflies [Shockproof Bumper] w/Phone Ring Holder (Gradient Pink Aqua)",
+          "label": "C",
+          "bm25_rank": 5,
+          "lambdarank_rank": 13
+        },
+        {
+          "product_id": "B07TWKXFKM",
+          "title": "AMENQ Case for Moto G7 Play, Moto G7 Optimo Case XT1952DL, T-Mobile Revvlry Case with TPU Bumper and Rugged PC Armor Protective Cover with Screen Protector for Motorola G Play 7th Gen 5.2 inch(Black)",
+          "label": "C",
+          "bm25_rank": 7,
+          "lambdarank_rank": 15
+        },
+        {
+          "product_id": "B0823CT4WY",
+          "title": "Moto G7 Play Case (Not Fit Moto G7) with [2 Pack] Tempered Glass Screen Protector, LeYi Military-Grade Defender Phone Case with Magnetic Car Mount Kickstand for Moto G7 Play, Black",
+          "label": "C",
+          "bm25_rank": 3,
+          "lambdarank_rank": 10
+        },
+        {
+          "product_id": "B0852NX3CK",
+          "title": "G7 Play LCD Screen Replacement Touch Display Digitizer Assembly (Black) for Motorola Moto G7 Play XT1952 XT1952-02/03/04 XT1952DL 5.7\"",
+          "label": "C",
+          "bm25_rank": 13,
+          "lambdarank_rank": 8
+        }
+      ]
+    },
+    {
+      "query": "boomerang",
+      "query_id": "18465",
+      "candidate_count": 31,
+      "bm25": 0.9216017310213246,
+      "lambdarank": 0.7172151919462776,
+      "products": [
+        {
+          "product_id": "B00009KWUH",
+          "title": "Aerobie 30C12 Orbiter Boomerang",
+          "label": "E",
+          "bm25_rank": 13,
+          "lambdarank_rank": 8
+        },
+        {
+          "product_id": "B002670A1O",
+          "title": "Polypropylene Pro Sports Boomerang - for Ages Above 10 Years Old. Real Sport Boomerangs Designed by a Former World Champion!",
+          "label": "E",
+          "bm25_rank": 3,
+          "lambdarank_rank": 15
+        },
+        {
+          "product_id": "B009NX7GGQ",
+          "title": "Boomerang",
+          "label": "E",
+          "bm25_rank": 5,
+          "lambdarank_rank": 1
+        },
+        {
+          "product_id": "B00ZG9ZRM6",
+          "title": "Blue Speed Racer Fast Catch Boomerang - Returning Boomerangs for Boomerang Athletes. Beginning Boomerangs for Young Throwers.",
+          "label": "E",
+          "bm25_rank": 1,
+          "lambdarank_rank": 10
+        },
+        {
+          "product_id": "B013FACGXA",
+          "title": "Kangaroo Pelican Boomerang - Authentic Australian Boomerangs with Aboriginal Design.",
+          "label": "E",
+          "bm25_rank": 2,
+          "lambdarank_rank": 11
+        },
+        {
+          "product_id": "B01HXOM2J2",
+          "title": "HOMEE Handmade Australian Boomerang Kangaroo Style Maneuver Dart Darts Outdoor Sports Wooden Throwing Equipment（Suit for Kids Over 6 and Adults） The Best Flying Toy Color Blue",
+          "label": "E",
+          "bm25_rank": 10,
+          "lambdarank_rank": 18
+        },
+        {
+          "product_id": "B072MVYHH9",
+          "title": "Boomerang for FireTV",
+          "label": "S",
+          "bm25_rank": 11,
+          "lambdarank_rank": 6
+        },
+        {
+          "product_id": "B074J3BXLF",
+          "title": "Boomerang",
+          "label": "I",
+          "bm25_rank": 6,
+          "lambdarank_rank": 2
+        },
+        {
+          "product_id": "B07PGQYV5Q",
+          "title": "Boomerang",
+          "label": "E",
+          "bm25_rank": 7,
+          "lambdarank_rank": 3
+        },
+        {
+          "product_id": "B07QNSF3K2",
+          "title": "Boomerang",
+          "label": "E",
+          "bm25_rank": 8,
+          "lambdarank_rank": 4
+        },
+        {
+          "product_id": "B07V2PW1JP",
+          "title": "Yogi Boomerang - Great Beginner Boomerangs for Kids Aged 7-70! A Real Returning Boomerang!",
+          "label": "E",
+          "bm25_rank": 14,
+          "lambdarank_rank": 9
+        },
+        {
+          "product_id": "B07VNWRSCB",
+          "title": "Finecraft Australia Large Boomerang for Kids and Adults- Easy Returning",
+          "label": "E",
+          "bm25_rank": 4,
+          "lambdarank_rank": 12
+        },
+        {
+          "product_id": "B07W37BLJF",
+          "title": "Boomerang",
+          "label": "E",
+          "bm25_rank": 9,
+          "lambdarank_rank": 5
+        },
+        {
+          "product_id": "B085WM1221",
+          "title": "Clip: Boomerang Breezy!",
+          "label": "I",
+          "bm25_rank": 12,
+          "lambdarank_rank": 7
+        }
+      ]
+    }
+  ]
+}

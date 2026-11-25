@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Inspect how BM25 and LambdaRank order the same products on Amazon ESCI search queries.">
+  <title>Product Search Reranker</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="demo.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to comparison</a>
+  <header class="masthead">
+    <div class="shell masthead-inner">
+      <span class="wordmark"><span class="mark" aria-hidden="true"><i></i><i></i><i></i></span> Product Search Reranker</span>
+      <nav aria-label="On this page">
+        <a href="#comparison">Compare rankings</a>
+        <a href="#benchmark">Benchmark</a>
+        <a href="#live">Try the model</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main" class="shell">
+    <header class="intro">
+      <h1>Which products<br>should come first?</h1>
+      <p>Compare a keyword baseline with a learned reranker on real shopping queries. Both methods order the same set of products.</p>
+    </header>
+
+    <section id="comparison" aria-labelledby="compare-title">
+      <div class="query-panel">
+        <div>
+          <h2 id="compare-title">Compare rankings</h2>
+          <label for="query">Held-out query</label>
+          <select id="query" disabled></select>
+        </div>
+        <div id="case-details" aria-live="polite"></div>
+      </div>
+      <p id="status" role="status">Loading benchmark examples…</p>
+      <div id="rankings" class="columns" data-view="baseline" hidden>
+        <div class="rank-switch" role="group" aria-label="Ranking method">
+          <button type="button" data-view="baseline" aria-pressed="true"
+                  aria-controls="rankings-baseline">BM25</button>
+          <button type="button" data-view="learned" aria-pressed="false"
+                  aria-controls="rankings-learned">LambdaRank</button>
+        </div>
+        <section id="rankings-baseline" class="ranking baseline" aria-labelledby="baseline-title">
+          <div class="ranking-heading">
+            <h3 id="baseline-title">BM25</h3><span>Keyword baseline</span>
+          </div>
+          <ol id="bm25" class="results"></ol>
+        </section>
+        <section id="rankings-learned" class="ranking learned" aria-labelledby="model-title">
+          <div class="ranking-heading">
+            <h3 id="model-title">LambdaRank</h3><span>Learned reranker</span>
+          </div>
+          <ol id="model" class="results"></ol>
+        </section>
+      </div>
+      <p class="legend">Relevance labels come from Amazon ESCI. A substitute can serve the same need, while a complement is used alongside the requested product.</p>
+    </section>
+
+    <section id="benchmark" class="benchmark" aria-labelledby="benchmark-title" hidden>
+      <div class="benchmark-head">
+        <h2 id="benchmark-title">Held-out benchmark</h2>
+        <p id="benchmark-note"></p>
+      </div>
+      <div class="table-wrap" tabindex="0" role="region" aria-label="Benchmark scores">
+        <table>
+          <caption class="sr-only">Mean nDCG at 10 by query slice</caption>
+          <thead>
+            <tr><th scope="col">Query slice</th><th scope="col">Queries</th><th scope="col">BM25</th><th scope="col">LambdaRank</th><th scope="col">Change</th></tr>
+          </thead>
+          <tbody id="metrics"></tbody>
+        </table>
+      </div>
+      <p id="interval" class="footnote"></p>
+      <p class="footnote">nDCG@10 gives higher credit to relevant products near the top. These results use the benchmark’s existing candidate lists. The query picker shows selected examples, including regressions.</p>
+    </section>
+    <section id="live" class="benchmark" aria-labelledby="live-title">
+      <div class="benchmark-head">
+        <h2 id="live-title">Try the model</h2>
+        <p>Enter a query and the candidates you want to rank. Use one product title per line.</p>
+      </div>
+      <form id="live-form" aria-describedby="live-status">
+        <label for="live-query">Search query</label>
+        <input id="live-query" maxlength="160" required value="stainless steel water bottle">
+        <label for="candidates">Product titles</label>
+        <textarea id="candidates" rows="5" required>Insulated stainless steel water bottle, 24 oz
+Silicone boot for steel water bottles
+BPA-free plastic water bottle, 20 oz
+Stainless steel cocktail shaker, 24 oz</textarea>
+        <button id="rank-button" type="submit" disabled>Rank products</button>
+      </form>
+      <p id="live-status" role="status">Checking model availability…</p>
+      <div id="live-results" class="columns" data-view="baseline" hidden>
+        <div class="rank-switch" role="group" aria-label="Ranking method">
+          <button type="button" data-view="baseline" aria-pressed="true"
+                  aria-controls="live-results-baseline">BM25</button>
+          <button type="button" data-view="learned" aria-pressed="false"
+                  aria-controls="live-results-learned">LambdaRank</button>
+        </div>
+        <section id="live-results-baseline" class="ranking baseline" aria-labelledby="live-bm25-title">
+          <div class="ranking-heading"><h3 id="live-bm25-title">BM25</h3></div>
+          <ol class="results" id="live-bm25"></ol>
+        </section>
+        <section id="live-results-learned" class="ranking learned" aria-labelledby="live-model-title">
+          <div class="ranking-heading"><h3 id="live-model-title">LambdaRank</h3></div>
+          <ol class="results" id="live-model"></ol>
+        </section>
+      </div>
+    </section>
+  </main>
+  <footer class="shell"><a href="https://github.com/amazon-science/esci-data">Amazon Shopping Queries Dataset</a> <span>·</span> English (US) · Task 1</footer>
+</body>
+</html>
