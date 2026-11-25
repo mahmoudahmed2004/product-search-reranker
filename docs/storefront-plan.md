@@ -1,0 +1,8 @@
+# Storefront V2 implementation plan
+
+1. Import a pinned DummyJSON snapshot of electronics and workspace products. Keep stable product IDs, original image URLs, integer price cents, descriptions, availability, and an explicit product-type taxonomy. Record device compatibility separately from marketing copy.
+2. Build a persistent local Qdrant collection with named Granite dense and BM25 sparse vectors. Fuse search ranks with RRF. Rerank with the existing ESCI LambdaRank checkpoint while retaining a signal from retrieval ranks. Version the index by catalog and encoder.
+3. Query the vector store for similar items within the product type. For complements, filter to eligible product types and verified device compatibility before ranking. Limit repeated complement types when alternatives are available.
+4. Train separate similar and complement LambdaRank models using ESCI query judgments projected onto anchors. Isolate anchor IDs and reverse pairs between splits. Blend supervised ranks with retrieval ranks on the site.
+5. Serve Assembly on /store/ alongside the original search benchmark. Support catalog search and collection filters, deep-linkable product pages, a local shopping bag, and separate recommendation sections. Use product photography from the catalog and a responsive light storefront, with a sage hero and orange accents.
+6. Report results on a small review set. Compare BM25, dense, hybrid and reranked search. Review item pages for self recommendations, incompatible accessories, out-of-stock items and coverage. Run the existing test suite and verify the live storefront on desktop and mobile.

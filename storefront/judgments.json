@@ -1,0 +1,28 @@
+{
+  "search": [
+    {"query":"active noise cancellation over ear", "grades":{"101":3,"100":1,"107":1}},
+    {"query":"apple headphones", "grades":{"101":3,"100":3,"107":1}},
+    {"query":"ultrabook with dual screen", "grades":{"79":3,"82":1,"80":1}},
+    {"query":"tablet with a pen", "grades":{"160":3,"161":1,"159":1}},
+    {"query":"work chair", "grades":{"14":3}},
+    {"query":"portable magnetic battery for iphone", "grades":{"105":3,"104":1}},
+    {"query":"case for iphone 12", "grades":{"108":3}},
+    {"query":"notebook with m1 pro chip", "grades":{"78":3}},
+    {"query":"laptop with retina screen", "grades":{"78":3}},
+    {"query":"smart home speaker", "grades":{"99":3,"103":3}},
+    {"query":"android phone by vivo", "grades":{"134":3,"135":3,"136":3}},
+    {"query":"task lighting for a desk", "grades":{"47":3,"110":1}},
+    {"query":"iphone 13 pro", "grades":{"123":3,"124":1,"121":1,"122":1}},
+    {"query":"flexible monopod for a camera", "grades":{"109":3,"111":2,"112":1}}
+  ],
+  "relationships": [
+    {"anchor":123, "similar":[121,122,124], "complements":[105], "forbidden":[104,108]},
+    {"anchor":133, "similar":[131,132], "complements":[100,101,107], "forbidden":[104,105,108]},
+    {"anchor":78, "similar":[79,80,81,82], "complements":[14,47], "forbidden":[104,108]},
+    {"anchor":160, "similar":[159,161], "complements":[100,101,107], "forbidden":[104,105]},
+    {"anchor":100, "similar":[101,107], "complements":[123,159], "forbidden":[105,108]},
+    {"anchor":105, "similar":[], "complements":[123], "forbidden":[121,122,124,133]},
+    {"anchor":108, "similar":[], "complements":[], "forbidden":[121,122,123,124,133]},
+    {"anchor":47, "similar":[], "complements":[14], "forbidden":[104,108]}
+  ]
+}

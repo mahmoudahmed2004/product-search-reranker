@@ -4,9 +4,22 @@ A shopping query can match a requested product, a compatible substitute, or an a
 
 It trains a CPU LightGBM LambdaRank model on [Amazon ESCI](https://github.com/amazon-science/esci-data), evaluates both rankers on the same held-out candidate lists, and serves the trained model through a web interface.
 
-![BM25 and LambdaRank results for the same Fitbit query](docs/demo-preview.png)
+## Assembly storefront · V2
 
-## Run the demo
+![Assembly storefront catalog](docs/storefront-preview.png)
+
+Browse a sample store and open product pages for same-type alternatives and compatible add-ons. Store search combines text and vector retrieval, and the product recommendations use two supervised item-to-item rankers.
+
+```sh
+python -m pip install -e ".[store]"
+python -m product_reranker serve-store
+```
+
+Open [the storefront](http://127.0.0.1:8000/store/). Dataset selection, model training, and storefront architecture are covered in the [V2 project notes](docs/storefront.md).
+
+## Run the V1 demo
+
+![BM25 and LambdaRank results for the same Fitbit query](docs/demo-preview.png)
 
 Use Python 3.11+ from the repository root. Create a virtual environment and activate it before installing.
 
@@ -59,7 +72,7 @@ The benchmark evaluates reranking inside Amazon's existing candidate pools. Prod
 ## Development
 
 ```sh
-python -m pip install -e ".[dev]"
+python -m pip install -e ".[dev,store]"
 python -m pytest -q
 python -m ruff check .
 python -m build

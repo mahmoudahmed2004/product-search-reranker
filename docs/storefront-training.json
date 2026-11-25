@@ -1,0 +1,46 @@
+{
+  "dataset": "Amazon ESCI US Task 1",
+  "revision": "7916cdf6ab75a462e77f20ab40428a10923998d5",
+  "encoder": "ibm-granite/granite-embedding-small-english-r2",
+  "train_sample_budget": 780,
+  "projected_groups": {
+    "train": 663,
+    "validation": 117,
+    "test": 260
+  },
+  "method": "Pair labels projected from shopping-query judgments using one Exact product per query.",
+  "metrics": {
+    "similar": {
+      "train_groups": 652,
+      "train_pairs": 12373,
+      "validation_groups": 115,
+      "test_groups": 255,
+      "title_char_cosine_ndcg5": 0.7445455031809154,
+      "learned_ndcg5": 0.7299873793876985,
+      "delta": -0.01455812379321686,
+      "iterations": 25
+    },
+    "complements": {
+      "train_groups": 168,
+      "train_pairs": 3779,
+      "validation_groups": 32,
+      "test_groups": 65,
+      "title_char_cosine_ndcg5": 0.1970184686152014,
+      "learned_ndcg5": 0.37140825233867386,
+      "delta": 0.17438978372347247,
+      "iterations": 18
+    }
+  },
+  "dense_review": {
+    "similar": {
+      "groups": 14,
+      "dense_ndcg5": 0.7862502745196815,
+      "learned_ndcg5": 0.8515155994476239
+    },
+    "complements": {
+      "groups": 14,
+      "dense_ndcg5": 0.22169345167133603,
+      "learned_ndcg5": 0.42154715246955166
+    }
+  }
+}

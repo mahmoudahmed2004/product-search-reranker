@@ -68,11 +68,27 @@ def main() -> int:
     fit.add_argument("--data-dir", type=Path, default=Path("data/raw"))
     fit.add_argument("--output-dir", type=Path, default=Path("artifacts"))
     fit.add_argument("--smoke-queries", type=int, default=0, help="Limit each split to N queries.")
-    server = commands.add_parser("serve", help="Serve the demo and model inference API.")
-    server.add_argument("--model-dir", type=Path, default=Path("models"))
-    server.add_argument("--site-dir", type=Path, default=Path("docs"))
-    server.add_argument("--host", default="127.0.0.1")
-    server.add_argument("--port", type=int, default=8000)
+    for command, help_text in (
+        ("serve", "Serve the V1 benchmark and inference API."),
+        ("serve-store", "Serve the storefront and product recommendations."),
+    ):
+        serve = commands.add_parser(command, help=help_text)
+        serve.add_argument("--model-dir", type=Path, default=Path("models"))
+        serve.add_argument("--site-dir", type=Path, default=Path("docs"))
+        serve.add_argument("--host", default="127.0.0.1")
+        serve.add_argument("--port", type=int, default=8000)
+    audit = commands.add_parser("audit-store", help="Evaluate search and recommendation examples.")
+    audit.add_argument("--model-dir", type=Path, default=Path("models"))
+    audit.add_argument("--output", type=Path, default=Path("artifacts/store-audit.json"))
+    for command in (serve, audit):
+        command.add_argument("--storefront", type=Path, default=Path("storefront"))
+        command.add_argument("--index-dir", type=Path, default=Path("data/store-index"))
+        command.add_argument("--cache-dir", type=Path, default=Path("data/store-models"))
+    pairs = commands.add_parser("train-store", help="Train V2 item-to-item rerankers on ESCI.")
+    pairs.add_argument("--data-dir", type=Path, default=Path("data/raw"))
+    pairs.add_argument("--cache-dir", type=Path, default=Path("data/store-models"))
+    pairs.add_argument("--output-dir", type=Path, default=Path("artifacts/store-training"))
+    pairs.add_argument("--queries", type=int, default=780)
     args = parser.parse_args()
 
     if args.command == "train" and args.smoke_queries < 0:
@@ -82,12 +98,29 @@ def main() -> int:
             download(args.data_dir)
         elif args.command == "train":
             train(args.data_dir, args.output_dir, args.smoke_queries)
+        elif args.command == "train-store":
+            from .train_store import train_pairs
+
+            if args.queries < 60:
+                parser.error("--queries must be at least 60.")
+            train_pairs(args.data_dir, args.cache_dir, args.output_dir, args.queries)
+        elif args.command == "audit-store":
+            from .store_eval import run_audit
+
+            run_audit(args.storefront, args.index_dir, args.cache_dir, args.model_dir, args.output)
         else:
             import uvicorn
 
             from .web import create_app
 
-            uvicorn.run(create_app(args.model_dir, args.site_dir), host=args.host, port=args.port)
+            options = None
+            if args.command == "serve-store":
+                from .store_web import StoreOptions
+
+                options = StoreOptions(args.storefront, args.index_dir, args.cache_dir)
+            uvicorn.run(
+                create_app(args.model_dir, args.site_dir, options), host=args.host, port=args.port
+            )
     except (OSError, ValueError) as error:
         print(str(error), file=sys.stderr)
         return 1

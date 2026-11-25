@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import hashlib
 import shutil
-from collections.abc import Sequence
+from collections.abc import Callable, Sequence
 from dataclasses import dataclass
 from itertools import groupby
 from pathlib import Path
@@ -138,7 +138,9 @@ def _load_products(path: Path, ids: set[str]) -> dict[str, Candidate]:
     return products
 
 
-def load_groups(data_dir: Path) -> tuple[QueryGroup, ...]:
+def load_groups(
+    data_dir: Path, select: Callable[[pa.Table], pa.Table] | None = None
+) -> tuple[QueryGroup, ...]:
     for filename in CHECKSUMS:
         path = data_dir / filename
         if not path.is_file():
@@ -148,6 +150,8 @@ def load_groups(data_dir: Path) -> tuple[QueryGroup, ...]:
         columns=["query_id", "query", "product_id", "esci_label", "split"],
         filters=[("small_version", "=", 1), ("product_locale", "=", "us")],
     )
+    if select is not None:
+        examples = select(examples)
     examples = examples.sort_by(
         [("split", "ascending"), ("query_id", "ascending"), ("product_id", "ascending")]
     )

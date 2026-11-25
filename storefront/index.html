@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Shop computers, mobile gear and workspace essentials with product recommendations.">
+  <title>Assembly · Gear for work and everyday use</title>
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="stylesheet" href="/store-assets/store.css">
+  <link rel="stylesheet" href="/store-assets/recommendations.css">
+  <script type="module" src="/store-assets/store.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to products</a>
+  <header class="header">
+    <div class="shell header-line">
+      <a class="logo" href="/store/" aria-label="Assembly home">assembly<span>.</span></a>
+      <form class="search" action="/store/">
+        <label class="sr-only" for="catalog-search">Search products</label>
+        <input type="search" name="q" id="catalog-search" maxlength="160" placeholder="Search products">
+        <button type="submit">Search</button>
+      </form>
+      <button id="open-bag" class="bag-button" type="button" aria-haspopup="dialog">
+        Bag <span id="bag-count">0</span>
+      </button>
+    </div>
+    <nav class="shell collections" aria-label="Shop by collection">
+      <a data-collection="" href="/store/">All products</a>
+      <a data-collection="computers" href="/store/?collection=computers">Computers</a>
+      <a data-collection="phones" href="/store/?collection=phones">Phones</a>
+      <a data-collection="tablets" href="/store/?collection=tablets">Tablets</a>
+      <a data-collection="audio" href="/store/?collection=audio">Audio</a>
+      <a data-collection="accessories" href="/store/?collection=accessories">Accessories</a>
+      <a data-collection="workspace" href="/store/?collection=workspace">Workspace</a>
+    </nav>
+  </header>
+  <main id="main" class="shell">
+    <p class="page-status" role="status">Loading the catalog…</p>
+  </main>
+  <footer class="footer">
+    <div class="shell footer-line">
+      <a class="logo" href="/store/">assembly<span>.</span></a>
+      <p>Portfolio storefront. Sample catalog and prices.</p>
+      <a href="/">Search benchmark</a>
+    </div>
+  </footer>
+  <dialog id="bag" class="bag" aria-labelledby="bag-title">
+    <div class="bag-head">
+      <h2 id="bag-title">Shopping bag</h2>
+      <form method="dialog"><button class="quiet" aria-label="Close shopping bag">Close</button></form>
+    </div>
+    <div id="bag-items"></div>
+    <div class="bag-total"><span>Subtotal</span><strong id="bag-total"></strong></div>
+    <p class="muted">This bag is saved on your device. Checkout is disabled in the demo.</p>
+  </dialog>
+  <div id="announcer" class="sr-only" role="status" aria-live="polite"></div>
+</body>
+</html>
